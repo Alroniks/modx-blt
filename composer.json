@@ -1,0 +1,16 @@
+{
+    "name": "alroniks/blt",
+    "description": "Bielaruskaja lacinka dlia MODX",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Klimchuk",
+            "email": "ivan@klimchuk.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    }
+}
