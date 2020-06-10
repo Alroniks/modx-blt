@@ -1,20 +1,21 @@
 <?php
+
 /**
- * Manager Log Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Manager_log
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['action'] = 'Дзеянне';
-$_lang['date_end'] = 'Дата заканчэння';
-$_lang['date_start'] = 'Дата пачатку';
-$_lang['filter_clear'] = 'Ачысціць фільтр';
-$_lang['manager_log'] = 'Журнал сістэмы кіравання';
-$_lang['mgrlog_clear'] = 'Ачысціць журнал сістэмы кіравання';
-$_lang['mgrlog_clear_confirm'] = 'Вы сапраўды жадаеце цалкам ачысціць журнал сістэмы кіравання? Гэта дзеянне не можа быць адменена.';
-$_lang['mgrlog_query_msg'] = 'Задайце крытэрыі прагляду журналу. Можна фільтраваць па даце, але варта ўлічваць, што межы не ўключаюцца ў выніковы перыяд. Для выбару ўсіх запісаў журналу за 01.01.2013, пастаўце значэнне &laquo; Дата пачатку&raquo; у 01.01.2013 і &laquo; Дата заканчэння&raquo; у 02.01.2013.';
-$_lang['mgrlog_query'] = 'Выбар крытэрыяў прагляду журналу';
-$_lang['object'] = 'Аб\'ект';
-$_lang['occurred'] = 'Адбылося';
-$_lang['user'] = 'Карыстальнік';
+$_lang['action'] = 'Dziejańnie';
+$_lang['date_end'] = 'Data zakančeńnia';
+$_lang['date_start'] = 'Data pačatku';
+$_lang['filter_clear'] = 'Ačyścić fiĺtr';
+$_lang['manager_log'] = 'Žurnal sistemy kiravańnia';
+$_lang['mgrlog_clear'] = 'Ačyścić žurnal sistemy kiravańnia';
+$_lang['mgrlog_clear_confirm'] = 'Vy sapraŭdy žadajecie calkam ačyścić žurnal sistemy kiravańnia\? Heta dziejańnie nie moža być admieniena.';
+$_lang['mgrlog_query_msg'] = 'Zadajcie kryteryi prahliadu žurnalu. Možna fiĺtravać pa dacie, alie varta ŭličvać, što miežy nie ŭkliučajucca ŭ vynikovy pieryjad. Dlia vybaru ŭsich zapisaŭ žurnalu za 01.01.2013, pastaŭcie značeńnie \&laquo\; Data pačatku\&raquo\; u 01.01.2013 i \&laquo\; Data zakančeńnia\&raquo\; u 02.01.2013.';
+$_lang['mgrlog_query'] = 'Vybar kryteryjaŭ prahliadu žurnalu';
+$_lang['object'] = 'Ab\jekt';
+$_lang['occurred'] = 'Adbylosia';
+$_lang['user'] = 'Karystaĺnik';

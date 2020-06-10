@@ -1,24 +1,25 @@
 <?php
+
 /**
- * Custom Filters Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Filters
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['ago'] = '[[+time]] таму';
-$_lang['ago_day'] = '[[+time]] дзень';
-$_lang['ago_days'] = '[[+time]] дзён';
-$_lang['ago_hour'] = '[[+time]] гадзіну';
-$_lang['ago_hours'] = '[[+time]] гадзін';
-$_lang['ago_minute'] = '1 хвіліна';
-$_lang['ago_minutes'] = '[[+time]] хвілін';
-$_lang['ago_month'] = '[[+time]] месяц';
-$_lang['ago_months'] = '[[+time]] месяцаў';
-$_lang['ago_seconds'] = '[[+time]] секунд';
-$_lang['ago_week'] = '[[+time]] тыдзень';
-$_lang['ago_weeks'] = '[[+time]] тыдняў';
-$_lang['ago_year'] = '[[+time]] год';
-$_lang['ago_years'] = '[[+time]] год';
-$_lang['today_at'] = 'сёння ў [[+time]]';
-$_lang['yesterday_at'] = 'учора ў [[+time]]';
+$_lang['ago'] = '\[\[+time\]\] tamu';
+$_lang['ago_day'] = '\[\[+time\]\] dzień';
+$_lang['ago_days'] = '\[\[+time\]\] dzion';
+$_lang['ago_hour'] = '\[\[+time\]\] hadzinu';
+$_lang['ago_hours'] = '\[\[+time\]\] hadzin';
+$_lang['ago_minute'] = '1 chvilina';
+$_lang['ago_minutes'] = '\[\[+time\]\] chvilin';
+$_lang['ago_month'] = '\[\[+time\]\] miesiac';
+$_lang['ago_months'] = '\[\[+time\]\] miesiacaŭ';
+$_lang['ago_seconds'] = '\[\[+time\]\] siekund';
+$_lang['ago_week'] = '\[\[+time\]\] tydzień';
+$_lang['ago_weeks'] = '\[\[+time\]\] tydniaŭ';
+$_lang['ago_year'] = '\[\[+time\]\] hod';
+$_lang['ago_years'] = '\[\[+time\]\] hod';
+$_lang['today_at'] = 'siońnia ŭ \[\[+time\]\]';
+$_lang['yesterday_at'] = 'učora ŭ \[\[+time\]\]';

@@ -1,65 +1,66 @@
 <?php
+
 /**
- * TV Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Tv
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['has_access'] = 'Ёсць доступ?';
-$_lang['filter_by_category'] = 'Фільтраваць па катэгорыi…';
-$_lang['rank'] = 'Ранг';
-$_lang['rendering_options'] = 'Налады адлюстравання';
-$_lang['tv'] = 'Пераменная шаблону';
-$_lang['tv_access_msg'] = 'Выберыце групы рэсурсаў, да якіх павінна належаць зменная шаблону. Толькі карыстальнікі, якія маюць доступ да абраных груп, змогуць змяніць гэтую зменную шаблону. Калі групы не абраны, усе карыстальнікі, якія маюць доступ да сістэмы кіравання, змогуць змяніць зменную шаблону.';
-$_lang['tv_binding_msg'] = 'Гэтае поле падтрымлівае прывязку крыніцы дадзеных з выкарыстаннем @ каманд';
-$_lang['tv_caption'] = 'Подпіс';
-$_lang['tv_change_template_msg'] = 'Змена гэтага шаблона выкліча перазагрузку старонкі за зменнымі шаблону, страціўшы ўсе незахаваныя змены.<br /><br />Вы сапраўды жадаеце змяніць гэты шаблон?';
-$_lang['tv_delete_confirm'] = 'Вы сапраўды жадаеце выдаліць гэтую зменную шаблону?';
-$_lang['tv_desc_caption'] = 'Тэкст, які будзе паказаны побач са зменнай шаблону пры рэдагаванні яе на старонцы рэсурса.';
-$_lang['tv_desc_category'] = 'Катэгорыя, да якой належыць зменная шаблону.';
-$_lang['tv_desc_description'] = 'Кароткае апісанне гэтай зменнай шаблону.';
-$_lang['tv_desc_name'] = 'Назва гэтай зменнай шаблону. Яна будзе даступна для выкарыстоўвання з дапамогай тэга [[*NameOfTV]].';
-$_lang['tv_description'] = 'Апісанне';
-$_lang['tv_err_delete'] = 'Адбылася памылка пры выдаленні зменнай шаблону.';
-$_lang['tv_err_duplicate'] = 'Адбылася памылка пры спробе дубляваць зменную шаблону.';
-$_lang['tv_err_duplicate_templates'] = 'Адбылася памылка пры дубляванні шаблонаў зменнай шаблону.';
-$_lang['tv_err_duplicate_documents'] = 'Адбылася памылка пры дубляванні дакументаў зменнай шаблону.';
-$_lang['tv_err_duplicate_documentgroups'] = 'Адбылася памылка пры дубляванні груп дакументаў зменнай шаблону.';
-$_lang['tv_err_ae'] = 'Зменная шаблону ўжо існуе з назвай "[[+name]]".';
-$_lang['tv_err_invalid_name'] = 'У вас ёсць недапушчальныя сімвалы ў назве зменнай шаблону.';
-$_lang['tv_err_locked'] = 'Зменная шаблону заблакавана!';
-$_lang['tv_err_nf'] = 'Зменная шаблону не знойдзена.';
-$_lang['tv_err_nfs'] = 'Не знойдзена зменная шаблону з ID: [[+id]]';
-$_lang['tv_err_ns'] = 'Зменная шаблону не пазначана.';
-$_lang['tv_err_reserved_name'] = 'Зменная шаблону не можа мець аднолькавую назву разам з полем рэрурса.';
-$_lang['tv_err_save_access_permissions'] = 'Адбылася памылка пры спробе захаваць дазволы доступу зменнай шаблону.';
-$_lang['tv_err_save'] = 'Адбылася памылка пры захаванні зменнай шаблону.';
-$_lang['tv_inuse'] = 'Наступны(я) дакумент(ы) зараз выкарыстоўваюць гэтую зменную шаблону. Для працягу аперацыі выдалення націсніце кнопку Выдаліць, у адваротным выпадку націсніце кнопку Адмена.';
-$_lang['tv_inuse_template'] = 'Наступны шаблон (ці шаблоны) выкарыстоўваюць гэтую зменную шаблону: [[+templates]].<br /><br />Калі ласка, адлучыце зменную шаблону ад шаблону (ці шаблонаў) перад выдаленнем.';
-$_lang['tv_input_options'] = 'Налады ўводу';
-$_lang['tv_input_options_msg'] = '<p>Тут вы можаце змяніць параметры ўводу для зменнай шаблону, спецыфічныя для абранага тыпу ўводу.</p>';
-$_lang['tv_lock'] = 'Заблакаваць зменную для рэдагавання';
-$_lang['tv_lock_msg'] = 'Карыстальнікі павінны мець дазвол edit_locked для рэдагавання гэтай зменнай шаблону.';
-$_lang['tv_management_msg'] = 'Кіраванне дадатковымі карыстацкімі палямі (зменныя шаблону) для вашых дакументаў.';
-$_lang['tv_msg'] = 'Тут вы можаце дадаваць і рэдагаваць зменныя шаблону. Зменныя шаблону павінны быць прыстасаваны да шаблонаў как стаць даступнымі ў сніпетах і дакументах.';
-$_lang['tv_name'] = 'Назва зменнай';
-$_lang['tv_new'] = 'Новая зменная шаблону';
-$_lang['tv_novars'] = 'Ніводнай зменнай шаблону не знойдзена';
-$_lang['tv_output_options'] = 'Налады вываду';
-$_lang['tv_output_options_msg'] = '<p>Тут вы можаце змяніць параметры ўводу для зменнай шаблону, спецыфічныя для абранага тыпу ўводу.</p>';
-$_lang['tv_properties'] = 'Параметры па змаўчанні';
-$_lang['tv_rank'] = 'Парадак сартавання';
-$_lang['tv_reset_params'] = 'Скінуць параметры';
-$_lang['tv_sources.intro_msg'] = 'Тут вы можаце прысвоіць медыя крыніцы, якія павінны быць выкарыстаны для гэтай зменнай шаблону ў кожным пазначаным кантэксце. Двойчы пстрыкніце па назве крыніцы ў табліцы, каб змяніць яе.';
-$_lang['tv_tmpl_access'] = 'Дазволы шаблонаў';
-$_lang['tv_tmpl_access_msg'] = 'Выберыце шаблоны для каторых гэтая зменная шаблону даступна.';
-$_lang['tv_widget'] = 'Віджэт';
-$_lang['tv_widget_prop'] = 'Уласцівасьці віджэта';
-$_lang['tvd_err_remove'] = 'Адбылася памылка пры спробе выдаліць зменную шаблону з дакумента.';
-$_lang['tvdg_err_remove'] = 'Адбылася памылка пры спробе выдаліць зменную шаблону з групы дакументаў.';
-$_lang['tvdg_err_save'] = 'Адбылася памылка пры спробе прыстасаваць зменную шаблону да групы дакументаў.';
-$_lang['tvs'] = 'Пераменныя шаблону';
-$_lang['tvt_err_nf'] = 'Зменная шаблону не мае доступу да пазначанага шаблону.';
-$_lang['tvt_err_remove'] = 'Адбылася памылка пры спробе выдаліць зменную шаблону з шаблону.';
-$_lang['tvt_err_save'] = 'Адбылася памылка пры спробе прыстасаваць зменную шаблону да шаблону.';
+$_lang['has_access'] = 'Jość dostup\?';
+$_lang['filter_by_category'] = 'Fiĺtravać pa katehoryi…';
+$_lang['rank'] = 'Ranh';
+$_lang['rendering_options'] = 'Nalady adliustravańnia';
+$_lang['tv'] = 'Pieramiennaja šablonu';
+$_lang['tv_access_msg'] = 'Vybierycie hrupy resursaŭ, da jakich pavinna naliežać źmiennaja šablonu. Toĺki karystaĺniki, jakija majuć dostup da abranych hrup, zmohuć źmianić hetuju źmiennuju šablonu. Kali hrupy nie abrany, usie karystaĺniki, jakija majuć dostup da sistemy kiravańnia, zmohuć źmianić źmiennuju šablonu.';
+$_lang['tv_binding_msg'] = 'Hetaje polie padtrymlivaje pryviazku krynicy dadzienych z vykarystańniem @ kamand';
+$_lang['tv_caption'] = 'Podpis';
+$_lang['tv_change_template_msg'] = 'Źmiena hetaha šablona vykliča pierazahruzku staronki za źmiennymi šablonu, straciŭšy ŭsie niezachavanyja źmieny.\<br /\>\<br /\>Vy sapraŭdy žadajecie źmianić hety šablon\?';
+$_lang['tv_delete_confirm'] = 'Vy sapraŭdy žadajecie vydalić hetuju źmiennuju šablonu\?';
+$_lang['tv_desc_caption'] = 'Tekst, jaki budzie pakazany pobač sa źmiennaj šablonu pry redahavańni jaje na staroncy resursa.';
+$_lang['tv_desc_category'] = 'Katehoryja, da jakoj naliežyć źmiennaja šablonu.';
+$_lang['tv_desc_description'] = 'Karotkaje apisańnie hetaj źmiennaj šablonu.';
+$_lang['tv_desc_name'] = 'Nazva hetaj źmiennaj šablonu. Jana budzie dastupna dlia vykarystoŭvańnia z dapamohaj teha \[\[\*NameOfTV\]\].';
+$_lang['tv_description'] = 'Apisańnie';
+$_lang['tv_err_delete'] = 'Adbylasia pamylka pry vydalieńni źmiennaj šablonu.';
+$_lang['tv_err_duplicate'] = 'Adbylasia pamylka pry sprobie dubliavać źmiennuju šablonu.';
+$_lang['tv_err_duplicate_templates'] = 'Adbylasia pamylka pry dubliavańni šablonaŭ źmiennaj šablonu.';
+$_lang['tv_err_duplicate_documents'] = 'Adbylasia pamylka pry dubliavańni dakumientaŭ źmiennaj šablonu.';
+$_lang['tv_err_duplicate_documentgroups'] = 'Adbylasia pamylka pry dubliavańni hrup dakumientaŭ źmiennaj šablonu.';
+$_lang['tv_err_ae'] = 'Źmiennaja šablonu ŭžo isnuje z nazvaj [[+name]].';
+$_lang['tv_err_invalid_name'] = 'U vas jość niedapuščaĺnyja simvaly ŭ naźvie źmiennaj šablonu.';
+$_lang['tv_err_locked'] = 'Źmiennaja šablonu zablakavana!';
+$_lang['tv_err_nf'] = 'Źmiennaja šablonu nie znojdziena.';
+$_lang['tv_err_nfs'] = 'Nie znojdziena źmiennaja šablonu z ID: \[\[+id\]\]';
+$_lang['tv_err_ns'] = 'Źmiennaja šablonu nie paznačana.';
+$_lang['tv_err_reserved_name'] = 'Źmiennaja šablonu nie moža mieć adnoĺkavuju nazvu razam z poliem rerursa.';
+$_lang['tv_err_save_access_permissions'] = 'Adbylasia pamylka pry sprobie zachavać dazvoly dostupu źmiennaj šablonu.';
+$_lang['tv_err_save'] = 'Adbylasia pamylka pry zachavańni źmiennaj šablonu.';
+$_lang['tv_inuse'] = 'Nastupny\(ja\) dakumient\(y\) zaraz vykarystoŭvajuć hetuju źmiennuju šablonu. Dlia praciahu apieracyi vydalieńnia naciśnicie knopku Vydalić, u advarotnym vypadku naciśnicie knopku Admiena.';
+$_lang['tv_inuse_template'] = 'Nastupny šablon \(ci šablony\) vykarystoŭvajuć hetuju źmiennuju šablonu: \[\[+templates\]\].\<br /\>\<br /\>Kali laska, adlučycie źmiennuju šablonu ad šablonu \(ci šablonaŭ\) pierad vydalieńniem.';
+$_lang['tv_input_options'] = 'Nalady ŭvodu';
+$_lang['tv_input_options_msg'] = '\<p\>Tut vy možacie źmianić paramietry ŭvodu dlia źmiennaj šablonu, śpiecyfičnyja dlia abranaha typu ŭvodu.\</p\>';
+$_lang['tv_lock'] = 'Zablakavać źmiennuju dlia redahavańnia';
+$_lang['tv_lock_msg'] = 'Karystaĺniki pavinny mieć dazvol edit_locked dlia redahavańnia hetaj źmiennaj šablonu.';
+$_lang['tv_management_msg'] = 'Kiravańnie dadatkovymi karystackimi paliami \(źmiennyja šablonu\) dlia vašych dakumientaŭ.';
+$_lang['tv_msg'] = 'Tut vy možacie dadavać i redahavać źmiennyja šablonu. Źmiennyja šablonu pavinny być prystasavany da šablonaŭ kak stać dastupnymi ŭ śnipietach i dakumientach.';
+$_lang['tv_name'] = 'Nazva źmiennaj';
+$_lang['tv_new'] = 'Novaja źmiennaja šablonu';
+$_lang['tv_novars'] = 'Nivodnaj źmiennaj šablonu nie znojdziena';
+$_lang['tv_output_options'] = 'Nalady vyvadu';
+$_lang['tv_output_options_msg'] = '\<p\>Tut vy možacie źmianić paramietry ŭvodu dlia źmiennaj šablonu, śpiecyfičnyja dlia abranaha typu ŭvodu.\</p\>';
+$_lang['tv_properties'] = 'Paramietry pa zmaŭčańni';
+$_lang['tv_rank'] = 'Paradak sartavańnia';
+$_lang['tv_reset_params'] = 'Skinuć paramietry';
+$_lang['tv_sources.intro_msg'] = 'Tut vy možacie prysvoić miedyja krynicy, jakija pavinny być vykarystany dlia hetaj źmiennaj šablonu ŭ kožnym paznačanym kantekście. Dvojčy pstryknicie pa naźvie krynicy ŭ tablicy, kab źmianić jaje.';
+$_lang['tv_tmpl_access'] = 'Dazvoly šablonaŭ';
+$_lang['tv_tmpl_access_msg'] = 'Vybierycie šablony dlia katorych hetaja źmiennaja šablonu dastupna.';
+$_lang['tv_widget'] = 'Vidžet';
+$_lang['tv_widget_prop'] = 'Ulaścivaści vidžeta';
+$_lang['tvd_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić źmiennuju šablonu z dakumienta.';
+$_lang['tvdg_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić źmiennuju šablonu z hrupy dakumientaŭ.';
+$_lang['tvdg_err_save'] = 'Adbylasia pamylka pry sprobie prystasavać źmiennuju šablonu da hrupy dakumientaŭ.';
+$_lang['tvs'] = 'Pieramiennyja šablonu';
+$_lang['tvt_err_nf'] = 'Źmiennaja šablonu nie maje dostupu da paznačanaha šablonu.';
+$_lang['tvt_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić źmiennuju šablonu z šablonu.';
+$_lang['tvt_err_save'] = 'Adbylasia pamylka pry sprobie prystasavać źmiennuju šablonu da šablonu.';

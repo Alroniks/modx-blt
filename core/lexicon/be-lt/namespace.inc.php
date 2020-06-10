@@ -1,30 +1,29 @@
 <?php
+
 /**
- * Namespace Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Namespace
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['namespace'] = 'Прастора імёнаў';
-$_lang['namespace_create'] = 'Стварыць прастору імёнаў';
-$_lang['namespace_err_create'] = 'Адбылася памылка пры спробе стварыць прастору імёнаў.';
-$_lang['namespace_err_nf'] = 'Прастора імёнаў не знойдзена.';
-$_lang['namespace_err_nfs'] = 'Не знойдзена прастора імёнаў з імем: %s';
-$_lang['namespace_err_ns'] = 'Прастора імёнаў не пазначана.';
-$_lang['namespace_err_remove'] = 'Адбылася памылка пры спробе выдаліць прастору імёнаў.';
-$_lang['namespace_err_save'] = 'Адбылася памылка пры спробе захаваць прастору імёнаў.';
-$_lang['namespace_assets_path'] = 'Шлях да актываў (assets)';
-$_lang['namespace_assets_path_desc'] = 'Пазначце тут абсалютны шлях да актываў для гэтай прасторы імёнаў. Мы можаце выкарыстоўваць запаўняльнікі накшталт {assets_path}. Прыклад:
- {assets_path}components/democomponent/';
-$_lang['namespace_name_desc'] = 'Пазначце імя для прасторы імёнаў тут.';
-$_lang['namespace_path'] = 'Шлях да ядра';
-$_lang['namespace_path_desc'] = 'Пазначце тут абсалютны шлях да ядра для гэтай прасторы імёнаў. Мы можаце выкарыстоўваць запаўняльнікі накшталт {core_path}. Прыклад:
- {core_path}components/democomponent/';
-$_lang['namespace_remove'] = 'Выдаліць прастору імёнаў';
-$_lang['namespace_remove_confirm'] = 'Вы сапраўды жадаеце выдаліць прастору імёнаў "[[+name]]" і ўвесь звязаны з ім змест?';
-$_lang['namespace_remove_multiple'] = 'Выдаліць прасторы імёнаў';
-$_lang['namespace_remove_multiple_confirm'] = 'Вы сапраўды жадаеце выдаліць гэтыя прасторы імёнаў і ўвесь звязаны з імі змест?';
-$_lang['namespace_update'] = 'Абнавіць прастору імёнаў';
-$_lang['namespaces'] = 'Прасторы імёнаў';
-$_lang['namespaces_desc'] = 'Прасторы імёнаў з\'яўляюцца глабальнымі ідэнтыфікатарамі для пакетаў і кампанентаў, якія рэгіструюць аб\'екты пакетаў, запісы слоўнікаў і рэсурсы ўсе разам.';
+$_lang['namespace'] = 'Prastora imionaŭ';
+$_lang['namespace_create'] = 'Stvaryć prastoru imionaŭ';
+$_lang['namespace_err_create'] = 'Adbylasia pamylka pry sprobie stvaryć prastoru imionaŭ.';
+$_lang['namespace_err_nf'] = 'Prastora imionaŭ nie znojdziena.';
+$_lang['namespace_err_nfs'] = 'Nie znojdziena prastora imionaŭ z imiem: %s';
+$_lang['namespace_err_ns'] = 'Prastora imionaŭ nie paznačana.';
+$_lang['namespace_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić prastoru imionaŭ.';
+$_lang['namespace_err_save'] = 'Adbylasia pamylka pry sprobie zachavać prastoru imionaŭ.';
+$_lang['namespace_assets_path'] = 'Šliach da aktyvaŭ \(assets\)';
+$_lang['namespace_assets_path_desc'] = 'Paznačcie tut absaliutny šliach da aktyvaŭ dlia hetaj prastory imionaŭ. My možacie vykarystoŭvać zapaŭniaĺniki nakštalt \{assets_path\}. Pryklad: \{assets_path\}components/democomponent/';
+$_lang['namespace_name_desc'] = 'Paznačcie imia dlia prastory imionaŭ tut.';
+$_lang['namespace_path'] = 'Šliach da jadra';
+$_lang['namespace_path_desc'] = 'Paznačcie tut absaliutny šliach da jadra dlia hetaj prastory imionaŭ. My možacie vykarystoŭvać zapaŭniaĺniki nakštalt \{core_path\}. Pryklad: \{core_path\}components/democomponent/';
+$_lang['namespace_remove'] = 'Vydalić prastoru imionaŭ';
+$_lang['namespace_remove_confirm'] = 'Vy sapraŭdy žadajecie vydalić prastoru imionaŭ [[+name]] i ŭvieś źviazany z im źmiest\?';
+$_lang['namespace_remove_multiple'] = 'Vydalić prastory imionaŭ';
+$_lang['namespace_remove_multiple_confirm'] = 'Vy sapraŭdy žadajecie vydalić hetyja prastory imionaŭ i ŭvieś źviazany z imi źmiest\?';
+$_lang['namespace_update'] = 'Abnavić prastoru imionaŭ';
+$_lang['namespaces'] = 'Prastory imionaŭ';
+$_lang['namespaces_desc'] = 'Prastory imionaŭ z\jaŭliajucca hlabaĺnymi identyfikatarami dlia pakietaŭ i kampanientaŭ, jakija rehistrujuć ab\jekty pakietaŭ, zapisy sloŭnikaŭ i resursy ŭsie razam.';

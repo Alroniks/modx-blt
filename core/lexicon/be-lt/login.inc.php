@@ -1,33 +1,34 @@
 <?php
+
 /**
- * Login Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Login
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['login_language'] = 'Мова';
-$_lang['login_activation_key_err'] = 'Няправільны код актывацыі! Калі ласка, праверце ліст з кодам актывацыі і пераканайцеся, што вы загрузілі правільны URL.';
+$_lang['login_language'] = 'Mova';
+$_lang['login_activation_key_err'] = 'Niapraviĺny kod aktyvacyi! Kali laska, praviercie list z kodam aktyvacyi i pierakanajciesia, što vy zahruzili praviĺny URL.';
 $_lang['login_blocked_admin'] = 'You have been blocked by an administrator.';
-$_lang['login_blocked_error'] = 'Вы часова заблакаваны і не можаце ўвайсці ў сістэму кіравання сайтам. Паспрабуйце пазней.';
-$_lang['login_blocked_ip'] = 'Вам забаронена ўваходзіць у сістэму кіравання сайтам з гэтага IP-адрасу.';
-$_lang['login_blocked_time'] = 'Вам забаронена ўваходзіць у сістэму кіравання зараз. Калі ласка, паспрабуйце пазней.';
-$_lang['login_blocked_too_many_attempts'] = 'Вы былі заблакаваныя з-за занадта вялікай колькасці няўдалых спробаў уваходу.';
-$_lang['login_button'] = 'Увайсці';
-$_lang['login_cannot_locate_account'] = 'Няправільнае імя карыстальніка або пароль. Калі ласка, праверце уведзеныя дадзеныя і паспрабуйце зноў.';
-$_lang['login_copyright'] = '&copy; 2005-[[+current_year]] by <a href="http://modx.com/about/" target="_blank">MODX, LLC</a>. MODX Revolution&trade; распаўсюджваецца пад ліцэнзіяй GPLv2 ці па больш позняй версіі гэтай ліцэнзіі.';
-$_lang['login_email_label'] = 'Email ўліковага запісу:';
-$_lang['login_err_unknown'] = 'Пры спробе аўтарызацыі адбылася невядомая памылка.';
-$_lang['login_forget_your_login'] = 'Запамятавалi сваё імя карыстальніка?';
-$_lang['login_hostname_error'] = 'Імя вашага хаста не звязана з вашым IP-адрасам.';
-$_lang['login_message'] = 'Калі ласка, увядзіце вашыя уліковыя дадзеныя для ўваходу ў панэль кіравання сайтам. Звярніце ўвагу, вашы імя карыстальніка і пароль адчувальныя да рэгістра!';
-$_lang['login_password'] = 'Пароль';
-$_lang['login_password_reset_act_sent'] = 'Калі карыстальнік ці email існуюсь, вы хутка атрымаеце пісьмо.';
-$_lang['login_remember'] = 'Запомніць мяне';
-$_lang['login_send_activation_email'] = 'Даслаць ліст для актывацыі';
-$_lang['login_title'] = 'Увайсці';
-$_lang['login_user_err_nf_email'] = 'Калі карыстальнік ці email існуюсь, вы хутка атрымаеце пісьмо.';
-$_lang['login_username'] = 'Імя карыстальніка';
-$_lang['login_username_or_email'] = 'Імя карыстальніка або email';
-$_lang['login_username_password_incorrect'] = 'Няправільнае імя карыстальніка або пароль. Калі ласка, праверце уведзеныя дадзеныя і паспрабуйце зноў.';
-$_lang['login_user_inactive'] = 'Ваш улiковы запiс быў заблакаваны. Калі ласка, звяжыцеся з вашым сістэмным адміністратарам для адмены блакіроўкі.';
+$_lang['login_blocked_error'] = 'Vy časova zablakavany i nie možacie ŭvajści ŭ sistemu kiravańnia sajtam. Pasprabujcie paźniej.';
+$_lang['login_blocked_ip'] = 'Vam zabaroniena ŭvachodzić u sistemu kiravańnia sajtam z hetaha IP-adrasu.';
+$_lang['login_blocked_time'] = 'Vam zabaroniena ŭvachodzić u sistemu kiravańnia zaraz. Kali laska, pasprabujcie paźniej.';
+$_lang['login_blocked_too_many_attempts'] = 'Vy byli zablakavanyja z-za zanadta vialikaj koĺkaści niaŭdalych sprobaŭ uvachodu.';
+$_lang['login_button'] = 'Uvajści';
+$_lang['login_cannot_locate_account'] = 'Niapraviĺnaje imia karystaĺnika abo paroĺ. Kali laska, praviercie uviedzienyja dadzienyja i pasprabujcie znoŭ.';
+$_lang['login_copyright'] = '\&copy\; 2005-\[\[+current_year\]\] by \<a href=http://modx.com/about/ target=_blank\>MODX, LLC\</a\>. MODX Revolution\&trade\; raspaŭsiudžvajecca pad licenzijaj GPLv2 ci pa boĺš poźniaj viersii hetaj licenzii.';
+$_lang['login_email_label'] = 'Email ŭlikovaha zapisu:';
+$_lang['login_err_unknown'] = 'Pry sprobie aŭtaryzacyi adbylasia nieviadomaja pamylka.';
+$_lang['login_forget_your_login'] = 'Zapamiatavali svajo imia karystaĺnika\?';
+$_lang['login_hostname_error'] = 'Imia vašaha chasta nie źviazana z vašym IP-adrasam.';
+$_lang['login_message'] = 'Kali laska, uviadzicie vašyja ulikovyja dadzienyja dlia ŭvachodu ŭ paneĺ kiravańnia sajtam. Źviarnicie ŭvahu, vašy imia karystaĺnika i paroĺ adčuvaĺnyja da rehistra!';
+$_lang['login_password'] = 'Paroĺ';
+$_lang['login_password_reset_act_sent'] = 'Kali karystaĺnik ci email isnujuś, vy chutka atrymajecie piśmo.';
+$_lang['login_remember'] = 'Zapomnić mianie';
+$_lang['login_send_activation_email'] = 'Daslać list dlia aktyvacyi';
+$_lang['login_title'] = 'Uvajści';
+$_lang['login_user_err_nf_email'] = 'Kali karystaĺnik ci email isnujuś, vy chutka atrymajecie piśmo.';
+$_lang['login_username'] = 'Imia karystaĺnika';
+$_lang['login_username_or_email'] = 'Imia karystaĺnika abo email';
+$_lang['login_username_password_incorrect'] = 'Niapraviĺnaje imia karystaĺnika abo paroĺ. Kali laska, praviercie uviedzienyja dadzienyja i pasprabujcie znoŭ.';
+$_lang['login_user_inactive'] = 'Vaš ulikovy zapis byŭ zablakavany. Kali laska, źviažyciesia z vašym sistemnym administrataram dlia admieny blakiroŭki.';

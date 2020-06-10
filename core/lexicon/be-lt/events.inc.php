@@ -1,36 +1,33 @@
 <?php
+
 /**
- * System Events Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Events
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-
-$_lang['events'] = 'Падзеі';
-$_lang['system_event'] = 'Сістэмная падзея';
-$_lang['system_events'] = 'Сістэмныя падзеі';
-$_lang['system_events.desc'] = 'Сістэмныя падзеі з\'яўляюцца падзеямі ў MODX, да якіх прыстасаваны плагіны. Яны здараюцца (вызываюцца) ў кодзе MODX, дазваляючы плагінам ўзаемадзейнічаць з MODX кодам і дадаваць карыстацкія функцыі бяз змены асноўнага кода. Вы можаце ствараць свае ўласныя падзеі для вашага праекта, але вы не можаце выдаліць асноўныя падзеі, толькі свае ўласныя.';
-$_lang['system_events.search_by_name'] = 'Пошук па назве падзеі';
-$_lang['system_events.create'] = 'Стварыць новую падзею';
-$_lang['system_events.name_desc'] = 'Назва падзеі. Тая, якую вы павінны выкарыстоўваць у выкліку &dollar;modx->invokeEvent(name, properties).';
-$_lang['system_events.groupname'] = 'Група';
-$_lang['system_events.groupname_desc'] = 'Назва групы, да якой належыць новая падзея. Выберыце існуючую або ўвядзіце новае імя групы.';
-$_lang['system_events.plugins'] = 'Плагiны';
-$_lang['system_events.plugins_desc'] = 'Спіс плагінаў прыстасаваных да падзеі. Выберыце плагіны якія павінны быць прыстасаваныя да падзеі.';
-
-$_lang['system_events.service'] = 'Служба';
-$_lang['system_events.service_1'] = 'Падзеі паслугі парсера';
-$_lang['system_events.service_2'] = 'Падзеі доступа да сістэмы кіравання';
-$_lang['system_events.service_3'] = 'Падзеі доступа да сайта';
-$_lang['system_events.service_4'] = 'Падзеі паслугі кэша';
-$_lang['system_events.service_5'] = 'Падзеі паслугі шаблонаў';
-$_lang['system_events.service_6'] = 'Падзеі, вызначаныя карыстальнікам';
-
-$_lang['system_events.remove'] = 'Выдаліць падзею';
-$_lang['system_events.remove_confirm'] = 'Вы сапраўды жадаеце выдаліць падзею <b>[[+name]]</b>? Гэта незваротна!';
-
-$_lang['system_events_err_ns'] = 'Назва сістэмнай падзеі не пазначана.';
-$_lang['system_events_err_ae'] = 'Назва сістэмнай падзеі ўжо існуе.';
-$_lang['system_events_err_startint'] = 'Імя не павінна пачынацца з лічбы.';
-$_lang['system_events_err_remove_not_allowed'] = 'Вам не дазволена выдаляць гэтую сістэмную падзею.';
+$_lang['events'] = 'Padziei';
+$_lang['system_event'] = 'Sistemnaja padzieja';
+$_lang['system_events'] = 'Sistemnyja padziei';
+$_lang['system_events.desc'] = 'Sistemnyja padziei z\jaŭliajucca padziejami ŭ MODX, da jakich prystasavany plahiny. Jany zdarajucca \(vyzyvajucca\) ŭ kodzie MODX, dazvaliajučy plahinam ŭzajemadziejničać z MODX kodam i dadavać karystackija funkcyi biaz źmieny asnoŭnaha koda. Vy možacie stvarać svaje ŭlasnyja padziei dlia vašaha prajekta, alie vy nie možacie vydalić asnoŭnyja padziei, toĺki svaje ŭlasnyja.';
+$_lang['system_events.search_by_name'] = 'Pošuk pa naźvie padziei';
+$_lang['system_events.create'] = 'Stvaryć novuju padzieju';
+$_lang['system_events.name_desc'] = 'Nazva padziei. Taja, jakuju vy pavinny vykarystoŭvać u vykliku \&dollar\;modx-\>invokeEvent\(name, properties\).';
+$_lang['system_events.groupname'] = 'Hrupa';
+$_lang['system_events.groupname_desc'] = 'Nazva hrupy, da jakoj naliežyć novaja padzieja. Vybierycie isnujučuju abo ŭviadzicie novaje imia hrupy.';
+$_lang['system_events.plugins'] = 'Plahiny';
+$_lang['system_events.plugins_desc'] = 'Śpis plahinaŭ prystasavanych da padziei. Vybierycie plahiny jakija pavinny być prystasavanyja da padziei.';
+$_lang['system_events.service'] = 'Služba';
+$_lang['system_events.service_1'] = 'Padziei pasluhi parsiera';
+$_lang['system_events.service_2'] = 'Padziei dostupa da sistemy kiravańnia';
+$_lang['system_events.service_3'] = 'Padziei dostupa da sajta';
+$_lang['system_events.service_4'] = 'Padziei pasluhi keša';
+$_lang['system_events.service_5'] = 'Padziei pasluhi šablonaŭ';
+$_lang['system_events.service_6'] = 'Padziei, vyznačanyja karystaĺnikam';
+$_lang['system_events.remove'] = 'Vydalić padzieju';
+$_lang['system_events.remove_confirm'] = 'Vy sapraŭdy žadajecie vydalić padzieju \<b\>\[\[+name\]\]\</b\>\? Heta niezvarotna!';
+$_lang['system_events_err_ns'] = 'Nazva sistemnaj padziei nie paznačana.';
+$_lang['system_events_err_ae'] = 'Nazva sistemnaj padziei ŭžo isnuje.';
+$_lang['system_events_err_startint'] = 'Imia nie pavinna pačynacca z ličby.';
+$_lang['system_events_err_remove_not_allowed'] = 'Vam nie dazvoliena vydaliać hetuju sistemnuju padzieju.';

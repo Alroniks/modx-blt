@@ -1,32 +1,33 @@
 <?php
+
 /**
- * Action Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Action
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['action'] = 'Дзеянне';
-$_lang['action_confirm_remove'] = 'Вы ўпэўненыя, што жадаеце выдаліць гэтае дзеянне? Патэнцыйна гэта можа зламаць інтэрфейс вашага мэнэджара MODX.';
-$_lang['action_create'] = 'Стварыць дзеянне';
-$_lang['action_create_here'] = 'Стварыць дзеянне тут';
-$_lang['action_desc'] = 'Дзеянні з\'яўляюцца абстракцыямі кантролераў MODX. Яны могуць быць выкарыстаны для стварэння карыстальнiцкiх старонак мэнэджара, а таксама для рэарганізацыi галоўнага меню мэнэджара MODX.';
-$_lang['action_err_create'] = 'Адбылася памылка пры стварэнні дзеяння.';
-$_lang['action_err_nf'] = 'Дзеянне не знойдзена!';
-$_lang['action_err_ns'] = 'Ніякіх дзеянняў не пазначана!';
-$_lang['action_err_remove'] = 'Адбылася памылка пры выдаленні дзеяння.';
-$_lang['action_err_save'] = 'Адбылася памылка пры захаванні дзеяння.';
-$_lang['action_none'] = 'Няма дзеянняў';
-$_lang['action_parent_err_nf'] = 'Бацькоўскае дзеянне не знойдзена!';
-$_lang['action_parent_err_ns'] = 'Бацькоўскае дзеянне не пазначана!';
-$_lang['action_place_here'] = 'Дадаць дзеянне тут';
-$_lang['action_remove'] = 'Выдаліць дзеянне';
-$_lang['action_update'] = 'Абнавіць дзеянне';
-$_lang['actions'] = 'Дзеянні';
-$_lang['controller'] = 'Кантролер';
-$_lang['controller_err_ae'] = 'Кантролер з такім шляхам для гэтай прасторы імёнаў ужо існуе.';
-$_lang['controller_err_nf'] = 'Файл кантролера не знойдзены!';
-$_lang['controller_err_ns'] = 'Кантролер не пазначаны!';
-$_lang['controller_parent'] = 'Бацькоўскi кантролер';
-$_lang['lang_topics'] = 'Моўныя тэмы';
-$_lang['lang_topics_desc'] = 'Гэта спіс радкоў, якія прадстаўляюць тэмы слоўніка, якія гэта дзеянне павінна загрузіць.';
+$_lang['action'] = 'Dziejańnie';
+$_lang['action_confirm_remove'] = 'Vy ŭpeŭnienyja, što žadajecie vydalić hetaje dziejańnie\? Patencyjna heta moža zlamać interfiejs vašaha menedžara MODX.';
+$_lang['action_create'] = 'Stvaryć dziejańnie';
+$_lang['action_create_here'] = 'Stvaryć dziejańnie tut';
+$_lang['action_desc'] = 'Dziejańni z\jaŭliajucca abstrakcyjami kantrolieraŭ MODX. Jany mohuć być vykarystany dlia stvareńnia karystaĺnickich staronak menedžara, a taksama dlia rearhanizacyi haloŭnaha mieniu menedžara MODX.';
+$_lang['action_err_create'] = 'Adbylasia pamylka pry stvareńni dziejańnia.';
+$_lang['action_err_nf'] = 'Dziejańnie nie znojdziena!';
+$_lang['action_err_ns'] = 'Nijakich dziejańniaŭ nie paznačana!';
+$_lang['action_err_remove'] = 'Adbylasia pamylka pry vydalieńni dziejańnia.';
+$_lang['action_err_save'] = 'Adbylasia pamylka pry zachavańni dziejańnia.';
+$_lang['action_none'] = 'Niama dziejańniaŭ';
+$_lang['action_parent_err_nf'] = 'Baćkoŭskaje dziejańnie nie znojdziena!';
+$_lang['action_parent_err_ns'] = 'Baćkoŭskaje dziejańnie nie paznačana!';
+$_lang['action_place_here'] = 'Dadać dziejańnie tut';
+$_lang['action_remove'] = 'Vydalić dziejańnie';
+$_lang['action_update'] = 'Abnavić dziejańnie';
+$_lang['actions'] = 'Dziejańni';
+$_lang['controller'] = 'Kantrolier';
+$_lang['controller_err_ae'] = 'Kantrolier z takim šliacham dlia hetaj prastory imionaŭ užo isnuje.';
+$_lang['controller_err_nf'] = 'Fajl kantroliera nie znojdzieny!';
+$_lang['controller_err_ns'] = 'Kantrolier nie paznačany!';
+$_lang['controller_parent'] = 'Baćkoŭski kantrolier';
+$_lang['lang_topics'] = 'Moŭnyja temy';
+$_lang['lang_topics_desc'] = 'Heta śpis radkoŭ, jakija pradstaŭliajuć temy sloŭnika, jakija heta dziejańnie pavinna zahruzić.';

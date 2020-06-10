@@ -1,63 +1,62 @@
 <?php
+
 /**
- * Messages Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Messages
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['all'] = 'Усе';
-$_lang['date_sent'] = 'Дата дасылання';
-$_lang['forward'] = 'Пераслаць';
-$_lang['mark_unread'] = 'Пазначыць як непрачытанае';
-$_lang['private'] = 'Прыватны';
-$_lang['read'] = 'Чытаць';
-$_lang['recipient'] = 'Атрымальнік';
-$_lang['recipient_type'] = 'Тып атрымальніка';
-$_lang['reply'] = 'Адказаць';
-$_lang['role'] = 'Роля';
-$_lang['sender'] = 'Адпраўнік';
-$_lang['sent_by'] = 'Даслана';
-$_lang['sent_on'] = 'Даслана';
-$_lang['subject'] = 'Тэма';
-$_lang['user'] = 'Карыстальнік';
-$_lang['usergroup'] = 'Група карыстальнiкаў';
-$_lang['filter_by_type'] = 'Фільтр па тыпу...';
-
-$_lang['message'] = 'Паведамленне';
-$_lang['message_create'] = 'Стварыць паведамленне';
-$_lang['message_new'] = 'Новае паведамленне';
-$_lang['message_remove_confirm'] = 'Вы сапраўды жадаеце цалкам выдаліць гэтае паведамленне?';
-$_lang['message_send_email'] = 'Даслаць еmail';
-$_lang['message_err_nfs'] = 'Паведамленне не знойдзена.';
-$_lang['message_err_not_specified_subject'] = 'Тэма не пазначана!';
-$_lang['message_err_remove'] = 'Адбылася памылка пры спробе выдаліць паведамленне.';
-$_lang['message_err_remove_notauth'] ='У вас недастаткова правоў для выдалення гэтага паведамлення.';
-$_lang['message_err_save'] = 'Адбылася памылка пры захаванні паведамлення.';
-
-$_lang['messages'] = 'Паведамленні';
-$_lang['messages_desc'] = 'Тут вы можаце кіраваць паведамленнямі, якія былі адасланыя вамі або адасланыя іншымі карыстальнікамі вам. Вы можаце адказваць, перасылаць паведамленні, таксама вы можаце выдаліць ці адзначыць як прачытаныя абраныя паведамленні.';
-$_lang['messages_all'] = 'Хто заўгодна';
-$_lang['messages_compose'] = 'Напісаць паведамленне';
-$_lang['messages_forward'] = 'Пераслаць';
-$_lang['messages_from'] = 'Ад';
-$_lang['messages_group'] = 'Група';
-$_lang['messages_inbox'] = 'Уваходныя';
-$_lang['messages_outbox'] = 'Выходныя';
-$_lang['messages_mark_as_unread'] = 'Зняць пазнаку пра чытанне';
-$_lang['messages_message'] = 'Паведамленне';
-$_lang['messages_not_allowed_to_read'] = 'Вам не дазволена чытаць гэта паведамленне!';
-$_lang['messages_no_messages'] = 'Няма паведамленняў.';
-$_lang['messages_private'] = 'Прыватны';
-$_lang['messages_read_message'] = 'Прачытаць паведамленне';
-$_lang['messages_reply'] = 'Адказаць';
-$_lang['messages_role'] = 'Роля';
-$_lang['messages_select_group'] = 'Абярыце групу';
-$_lang['messages_select_user'] = 'Абярыце карыстальніка';
-$_lang['messages_send'] = 'Даслаць';
-$_lang['messages_send_to'] = 'Даслаць';
-$_lang['messages_sent'] = 'Даслана';
-$_lang['messages_subject'] = 'Тэма';
-$_lang['messages_system_user'] = '[Сістэма]';
-$_lang['messages_title'] = 'Паведамленні';
-$_lang['messages_user'] = 'Карыстальнік';
+$_lang['all'] = 'Usie';
+$_lang['date_sent'] = 'Data dasylańnia';
+$_lang['forward'] = 'Pieraslać';
+$_lang['mark_unread'] = 'Paznačyć jak niepračytanaje';
+$_lang['private'] = 'Pryvatny';
+$_lang['read'] = 'Čytać';
+$_lang['recipient'] = 'Atrymaĺnik';
+$_lang['recipient_type'] = 'Typ atrymaĺnika';
+$_lang['reply'] = 'Adkazać';
+$_lang['role'] = 'Rolia';
+$_lang['sender'] = 'Adpraŭnik';
+$_lang['sent_by'] = 'Daslana';
+$_lang['sent_on'] = 'Daslana';
+$_lang['subject'] = 'Tema';
+$_lang['user'] = 'Karystaĺnik';
+$_lang['usergroup'] = 'Hrupa karystaĺnikaŭ';
+$_lang['filter_by_type'] = 'Fiĺtr pa typu...';
+$_lang['message'] = 'Paviedamlieńnie';
+$_lang['message_create'] = 'Stvaryć paviedamlieńnie';
+$_lang['message_new'] = 'Novaje paviedamlieńnie';
+$_lang['message_remove_confirm'] = 'Vy sapraŭdy žadajecie calkam vydalić hetaje paviedamlieńnie\?';
+$_lang['message_send_email'] = 'Daslać jemail';
+$_lang['message_err_nfs'] = 'Paviedamlieńnie nie znojdziena.';
+$_lang['message_err_not_specified_subject'] = 'Tema nie paznačana!';
+$_lang['message_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić paviedamlieńnie.';
+$_lang['message_err_remove_notauth'] = 'U vas niedastatkova pravoŭ dlia vydalieńnia hetaha paviedamlieńnia.';
+$_lang['message_err_save'] = 'Adbylasia pamylka pry zachavańni paviedamlieńnia.';
+$_lang['messages'] = 'Paviedamlieńni';
+$_lang['messages_desc'] = 'Tut vy možacie kiravać paviedamlieńniami, jakija byli adaslanyja vami abo adaslanyja inšymi karystaĺnikami vam. Vy možacie adkazvać, pierasylać paviedamlieńni, taksama vy možacie vydalić ci adznačyć jak pračytanyja abranyja paviedamlieńni.';
+$_lang['messages_all'] = 'Chto zaŭhodna';
+$_lang['messages_compose'] = 'Napisać paviedamlieńnie';
+$_lang['messages_forward'] = 'Pieraslać';
+$_lang['messages_from'] = 'Ad';
+$_lang['messages_group'] = 'Hrupa';
+$_lang['messages_inbox'] = 'Uvachodnyja';
+$_lang['messages_outbox'] = 'Vychodnyja';
+$_lang['messages_mark_as_unread'] = 'Źniać paznaku pra čytańnie';
+$_lang['messages_message'] = 'Paviedamlieńnie';
+$_lang['messages_not_allowed_to_read'] = 'Vam nie dazvoliena čytać heta paviedamlieńnie!';
+$_lang['messages_no_messages'] = 'Niama paviedamlieńniaŭ.';
+$_lang['messages_private'] = 'Pryvatny';
+$_lang['messages_read_message'] = 'Pračytać paviedamlieńnie';
+$_lang['messages_reply'] = 'Adkazać';
+$_lang['messages_role'] = 'Rolia';
+$_lang['messages_select_group'] = 'Abiarycie hrupu';
+$_lang['messages_select_user'] = 'Abiarycie karystaĺnika';
+$_lang['messages_send'] = 'Daslać';
+$_lang['messages_send_to'] = 'Daslać';
+$_lang['messages_sent'] = 'Daslana';
+$_lang['messages_subject'] = 'Tema';
+$_lang['messages_system_user'] = '\[Sistema\]';
+$_lang['messages_title'] = 'Paviedamlieńni';
+$_lang['messages_user'] = 'Karystaĺnik';
