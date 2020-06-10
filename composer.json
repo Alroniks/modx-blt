@@ -2,7 +2,7 @@
     "name": "alroniks/blt",
     "bin": ["bin/convert"],
     "description": "Bielaruskaja lacinka dlia MODX",
-    "type": "library",
+    "type": "modx-extra-package",
     "license": "MIT",
     "authors": [
         {
@@ -21,8 +21,26 @@
         }
     },
     "require": {
+        "php": ">=7.2",
         "alroniks/yamb": "dev-master",
         "nette/finder": "^3.0@dev",
         "nette/php-generator": "^3.4@dev"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "extra": {
+        "package-name": "BelarusianLatin",
+        "package-files": [
+            "core/lexicon/be-lt",
+            "core/lexicon/country/be-lt.inc.php"
+        ],
+        "package-validators": [
+            ""
+        ],
+        "package-resolvers": [
+            ""
+        ]
     }
 }
