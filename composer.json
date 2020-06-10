@@ -1,5 +1,6 @@
 {
     "name": "alroniks/blt",
+    "bin": ["bin/convert"],
     "description": "Bielaruskaja lacinka dlia MODX",
     "type": "library",
     "license": "MIT",
@@ -9,8 +10,19 @@
             "email": "ivan@klimchuk.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "repositories": [{
+        "type": "path",
+        "url": "../../../../../mspay/modx-package-builder"
+    }],
+    "autoload": {
+        "psr-4": {
+            "blt\\": "src"
+        }
+    },
     "require": {
-
+        "alroniks/yamb": "dev-master",
+        "nette/finder": "^3.0@dev",
+        "nette/php-generator": "^3.4@dev"
     }
 }
