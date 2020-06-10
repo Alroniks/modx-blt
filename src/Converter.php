@@ -11,6 +11,16 @@ use SplFileInfo;
 
 class Converter
 {
+    public const LANG_VAR = '_lang';
+    public const COUNTRY_LANG_VAR = '_country_lang';
+
+    private $fetchingVariable;
+
+    public function __construct(string $fetchingVariable)
+    {
+        $this->fetchingVariable = $fetchingVariable;
+    }
+
     /**
      * Runs process of converting the lexicon strings
      *
@@ -18,26 +28,26 @@ class Converter
      */
     public function __invoke(string $lexiconsRoot): void
     {
-        foreach ($this->scanFiles($lexiconsRoot) as $file)
+        foreach ($this->findLexiconFiles($lexiconsRoot) as $lexiconFile)
         {
-            $this->process($file);
+            $this->processLexiconFile($lexiconFile);
         }
     }
 
     /**
      * @param string $root
      *
-     * @return array
+     * @return SplFileInfo[]
      */
-    protected function scanFiles(string $root): array
+    protected function findLexiconFiles(string $root): array
     {
         $collection = Finder::findFiles('*.inc.php')->from($root);
 
         $sources = [];
-        /** @var SplFileInfo $file */
-        foreach ($collection as $file) {
-            if (false === strpos($file->getFilename(), '-lt')) {
-                $sources[] = $file;
+        /** @var SplFileInfo $fileInfo */
+        foreach ($collection as $fileInfo) {
+            if (false === strpos($fileInfo->getFilename(), '-lt')) {
+                $sources[] = $fileInfo;
             }
         }
 
@@ -47,21 +57,24 @@ class Converter
     /**
      * @param SplFileInfo $file
      */
-    protected function process(SplFileInfo $file)
+    protected function processLexiconFile(SplFileInfo $file): void
     {
-        $this->log('Processing file %s', $file->getFilename());
+        $this->log('Processing the file %s', $file->getFilename());
 
         $entries = $this->fetchLexiconEntries($file->getRealPath());
 
+        /** @var string $entry */
         foreach ($entries as $key => &$entry)
         {
-            $entry = $this->languageEntryBodyBuilder($key, $this->convertLine($entry));
+            $entry = $this->lexiconEntryBuilder($key, $this->convertLine($entry));
         }
 
-        $newPath = sprintf('%s-lt/%s', $file->getPath(), $file->getFilename());
         $topic = ucfirst(str_replace('.inc.php', '', $file->getFilename()));
+        $target = $this->fetchingVariable === self::LANG_VAR
+            ? sprintf('%s-lt/%s', $file->getPath(), $file->getFilename())
+            : sprintf('%s/%s', $file->getPath(), str_replace('be', 'be-lt', $file->getFilename()));
 
-        $this->storeEntries($newPath, $topic, $entries);
+        $this->writeFile($target, $this->buildPhpFileContent($topic, $entries));
     }
 
     /**
@@ -71,13 +84,11 @@ class Converter
      */
     protected function fetchLexiconEntries(string $path): array
     {
-        // $_country_lang - для стран
-
-        $lexicons = $_lang = [];
+        $lexicons = ${self::LANG_VAR} = ${self::COUNTRY_LANG_VAR} = [];
 
         if (file_exists($path)) {
             include $path;
-            $lexicons = $_lang;
+            $lexicons = ${$this->fetchingVariable};
         }
 
         return $lexicons;
@@ -88,11 +99,32 @@ class Converter
      *
      * @return string
      */
-    public function convertLine(string $line): string
+    protected function convertLine(string $line): string
     {
         $command = escapeshellcmd(sprintf(__DIR__ . '/../scripts/blt.py "%s"', $line));
 
         return trim(shell_exec($command));
+    }
+
+    /**
+     * @param string $topic
+     * @param array  $entries
+     *
+     * @return string
+     */
+    protected function buildPhpFileContent(string $topic, array $entries): string
+    {
+        $comment = [
+            sprintf('Belarusian Latin lexicon – topic %s', $topic), '',
+            "@language\tbe-lt\tBielaruskaja lacinka",
+            "@package\t\tmodx",
+            "@subpackage\tlexicon"
+        ];
+
+        $phpFile = new PhpFile();
+        $phpFile->addComment(implode(PHP_EOL, $comment));
+
+        return (new PsrPrinter)->printFile($phpFile) . implode(PHP_EOL, $entries) . PHP_EOL;
     }
 
     /**
@@ -112,9 +144,9 @@ class Converter
      *
      * @return string
      */
-    private function languageEntryBodyBuilder(string $key, string $value): string
+    private function lexiconEntryBuilder(string $key, string $value): string
     {
-        return sprintf('$_lang[\'%s\'] = \'%s\'', $key, $value);
+        return sprintf('$_lang[\'%s\'] = \'%s\';', $key, $value);
     }
 
     /**
@@ -126,24 +158,5 @@ class Converter
         $fileHandler = fopen($filePath, 'wb+');
         fwrite($fileHandler, $content);
         fclose($fileHandler);
-    }
-
-    protected function storeEntries(string $filename, string $topic, array $entries): void
-    {
-        $this->log('Storing new entries for topic %s to file %s', $topic, $filename);
-
-        $comment = [
-            sprintf('Belarusian Latin lexicon – topic %s', $topic), '',
-            "@language\tbe-lt\tBielaruskaja lacinka",
-            "@package\tmodx",
-            "@subpackage\tlexicon"
-        ];
-
-        $phpFile = new PhpFile();
-        $phpFile->addComment(implode(PHP_EOL, $comment));
-
-        $content = (new PsrPrinter)->printFile($phpFile) . implode(PHP_EOL, $entries) . PHP_EOL;
-
-        $this->writeFile($filename, $content);
     }
 }

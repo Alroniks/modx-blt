@@ -5,4 +5,8 @@ use blt\Converter;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-call_user_func(new Converter, __DIR__ . '/../core/lexicon');
+// convert countries
+call_user_func(new Converter(Converter::COUNTRY_LANG_VAR), __DIR__ . '/../core/lexicon/country');
+
+// convert topics
+call_user_func(new Converter(Converter::LANG_VAR), __DIR__ . '/../core/lexicon/be');
