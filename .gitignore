@@ -2,8 +2,8 @@
 .D_Store
 .encryption
 
-_packages/*/
-_packages/*.zip
-!_packages/.gitkeep
+dist/*/
+dist/*.zip
+!dist/.gitkeep
 
 vendor

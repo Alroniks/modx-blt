@@ -31,16 +31,15 @@
         "roave/security-advisories": "dev-master"
     },
     "extra": {
-        "package-name": "BelarusianLatin",
-        "package-files": [
-            "core/lexicon/be-lt",
-            "core/lexicon/country/be-lt.inc.php"
-        ],
-        "package-validators": [
-            ""
-        ],
-        "package-resolvers": [
-            ""
-        ]
+        "package": {
+            "name": "BelarusianLatin",
+            "files": [
+                "core/lexicon/be-lt",
+                "core/lexicon/country/be-lt.inc.php"
+            ],
+            "resolvers": [],
+            "validators": [],
+            "setup-options": []
+        }
     }
 }
