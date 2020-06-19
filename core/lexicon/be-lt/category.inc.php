@@ -8,7 +8,7 @@
  * @subpackage	lexicon
  */
 $_lang['categories'] = 'Katehoryi';
-$_lang['category_confirm_delete'] = 'Vy sapraŭdy žadajecie vydalić hetuju katehoryju? Usie eliemienty ŭ joj buduć paznačanyja jak \&laquo\;Biez katehoryi\&raquo\;.';
+$_lang['category_confirm_delete'] = 'Vy sapraŭdy žadajecie vydalić hetuju katehoryju? Usie eliemienty ŭ joj buduć paznačanyja jak &laquo;Biez katehoryi&raquo;.';
 $_lang['category_create'] = 'Stvaryć katehoryju';
 $_lang['category_err_ae'] = 'Katehoryja z takoj nazvaj užo isnuje. Kali laska, pasprabujcie inšuju nazvu.';
 $_lang['category_err_create'] = 'Adbylasia pamylka pry sprobie stvaryć katehoryju.';

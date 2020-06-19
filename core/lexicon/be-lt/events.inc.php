@@ -10,10 +10,10 @@
 $_lang['events'] = 'Padziei';
 $_lang['system_event'] = 'Sistemnaja padzieja';
 $_lang['system_events'] = 'Sistemnyja padziei';
-$_lang['system_events.desc'] = 'Sistemnyja padziei z\jaŭliajucca padziejami ŭ MODX, da jakich prystasavany plahiny. Jany zdarajucca (vyzyvajucca) ŭ kodzie MODX, dazvaliajučy plahinam ŭzajemadziejničać z MODX kodam i dadavać karystackija funkcyi biaz źmieny asnoŭnaha koda. Vy možacie stvarać svaje ŭlasnyja padziei dlia vašaha prajekta, alie vy nie možacie vydalić asnoŭnyja padziei, toĺki svaje ŭlasnyja.';
+$_lang['system_events.desc'] = 'Sistemnyja padziei z&apos;jaŭliajucca padziejami ŭ MODX, da jakich prystasavany plahiny. Jany zdarajucca (vyzyvajucca) ŭ kodzie MODX, dazvaliajučy plahinam ŭzajemadziejničać z MODX kodam i dadavać karystackija funkcyi biaz źmieny asnoŭnaha koda. Vy možacie stvarać svaje ŭlasnyja padziei dlia vašaha prajekta, alie vy nie možacie vydalić asnoŭnyja padziei, toĺki svaje ŭlasnyja.';
 $_lang['system_events.search_by_name'] = 'Pošuk pa naźvie padziei';
 $_lang['system_events.create'] = 'Stvaryć novuju padzieju';
-$_lang['system_events.name_desc'] = 'Nazva padziei. Taja, jakuju vy pavinny vykarystoŭvać u vykliku \&dollar\;modx->invokeEvent(name, properties).';
+$_lang['system_events.name_desc'] = 'Nazva padziei. Taja, jakuju vy pavinny vykarystoŭvać u vykliku &dollar;modx->invokeEvent(name, properties).';
 $_lang['system_events.groupname'] = 'Hrupa';
 $_lang['system_events.groupname_desc'] = 'Nazva hrupy, da jakoj naliežyć novaja padzieja. Vybierycie isnujučuju abo ŭviadzicie novaje imia hrupy.';
 $_lang['system_events.plugins'] = 'Plahiny';

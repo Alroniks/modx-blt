@@ -26,4 +26,4 @@ $_lang['namespace_remove_multiple'] = 'Vydalić prastory imionaŭ';
 $_lang['namespace_remove_multiple_confirm'] = 'Vy sapraŭdy žadajecie vydalić hetyja prastory imionaŭ i ŭvieś źviazany z imi źmiest?';
 $_lang['namespace_update'] = 'Abnavić prastoru imionaŭ';
 $_lang['namespaces'] = 'Prastory imionaŭ';
-$_lang['namespaces_desc'] = 'Prastory imionaŭ z\jaŭliajucca hlabaĺnymi identyfikatarami dlia pakietaŭ i kampanientaŭ, jakija rehistrujuć ab\jekty pakietaŭ, zapisy sloŭnikaŭ i resursy ŭsie razam.';
+$_lang['namespaces_desc'] = 'Prastory imionaŭ z&apos;jaŭliajucca hlabaĺnymi identyfikatarami dlia pakietaŭ i kampanientaŭ, jakija rehistrujuć ab&apos;jekty pakietaŭ, zapisy sloŭnikaŭ i resursy ŭsie razam.';

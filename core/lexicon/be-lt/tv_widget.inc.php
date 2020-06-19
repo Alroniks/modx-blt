@@ -24,7 +24,7 @@ $_lang['combo_listheight_desc'] = 'Vyšynia ŭ piksieliach samoha vypadaĺnaha �
 $_lang['combo_listwidth'] = 'Šyrynia śpisu';
 $_lang['combo_listwidth_desc'] = 'Šyrynia ŭ piksieliach samoha vypadaĺnaha śpisu. Pa zmaŭčańni vykarystoŭvajecca šyrynia combobox.';
 $_lang['combo_maxheight'] = 'Maksimaĺnaja vyšynia';
-$_lang['combo_maxheight_desc'] = 'Maksimaĺnaja vyšynia vypadaĺnaha śpisu ŭ piksieliach da z\jaŭlieńnia prakrutki (pa zmaŭčańni 300).';
+$_lang['combo_maxheight_desc'] = 'Maksimaĺnaja vyšynia vypadaĺnaha śpisu ŭ piksieliach da z&apos;jaŭlieńnia prakrutki (pa zmaŭčańni 300).';
 $_lang['combo_stackitems'] = 'Skladać vybrannyja eliemienty ŭ slupok';
 $_lang['combo_stackitems_desc'] = 'Kali ŭstaliavana značeńnie Tak, eliemienty buduć adliustravany pa adnamu ŭ kožnym radku. Pa zmaŭčańni Nie, što aznačaje adliustroŭvać eliemienty adzin za adnym.';
 $_lang['combo_title'] = 'Zahalovak śpisu';
@@ -32,7 +32,7 @@ $_lang['combo_title_desc'] = 'Kali paznačana, u pačatku vypadaĺnaha śpisu bu
 $_lang['combo_typeahead'] = 'Dazvolić aŭtazapaŭnieńnie';
 $_lang['combo_typeahead_desc'] = 'Kali abrać «Tak», nabirajemaje značeńnie budzie zaviaršacca, kali jano supadaje z adnym z mahčymych značeńniaŭ, i aŭtamatyčna vybiracca (pa zmaŭčańni vykliučana).';
 $_lang['combo_typeahead_delay'] = 'Zatrymka aŭtazapaŭnieńnia';
-$_lang['combo_typeahead_delay_desc'] = 'Praciahlaść ŭ milisiekundach času čakańnia, pakuĺ nie z\javicca tekst aŭtadapaŭnieńnia, kali aŭtadapaŭnieńnie ŭkliučana (pa zmaŭčańni 250).';
+$_lang['combo_typeahead_delay_desc'] = 'Praciahlaść ŭ milisiekundach času čakańnia, pakuĺ nie z&apos;javicca tekst aŭtadapaŭnieńnia, kali aŭtadapaŭnieńnie ŭkliučana (pa zmaŭčańni 250).';
 $_lang['date'] = 'Data';
 $_lang['date_format'] = 'Farmat daty';
 $_lang['date_use_current'] = 'Kali niama značeńnia, vykarystoŭvać biahučuju datu';
@@ -103,7 +103,7 @@ $_lang['resourcelist_limit_desc'] = 'Abmiežavaĺnaja koĺkaść resursaŭ u śp
 $_lang['resourcelist_parents'] = 'Baćki';
 $_lang['resourcelist_parents_desc'] = 'Śpis identyfikataraŭ resursaŭ dlia pošuku ŭ ich daččynnych resursaŭ dlia adliustravańnia ŭ śpisie.';
 $_lang['resourcelist_where'] = 'Umovy WHERE';
-$_lang['resourcelist_where_desc'] = 'JSON ab\jekt umoŭ where dlia fiĺtracyi ŭ zapycie, jaki atrymlivaje śpis resursaŭ. (Nie padtrymlivaje pošuk pa źmiennych šablonu.)<br/>Pryklady: [{template:=:4}], [{pagetitle:!=:Home}], [{parent:IN:[34,56]}]';
+$_lang['resourcelist_where_desc'] = 'JSON ab&apos;jekt umoŭ where dlia fiĺtracyi ŭ zapycie, jaki atrymlivaje śpis resursaŭ. (Nie padtrymlivaje pošuk pa źmiennych šablonu.)<br/>Pryklady: [{template:=:4}], [{pagetitle:!=:Home}], [{parent:IN:[34,56]}]';
 $_lang['richtext'] = 'Tekstavy redaktar';
 $_lang['sentence_case'] = 'Adčuvaĺny da rehistra';
 $_lang['shownone'] = 'Dazvolić pusty vybar';

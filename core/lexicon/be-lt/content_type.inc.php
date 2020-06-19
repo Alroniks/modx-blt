@@ -8,7 +8,7 @@
  * @subpackage	lexicon
  */
 $_lang['binary'] = 'Binarny';
-$_lang['binary_desc'] = 'Ci z\jaŭliajecca fajl binarnym abo text/ascii?';
+$_lang['binary_desc'] = 'Ci z&apos;jaŭliajecca fajl binarnym abo text/ascii?';
 $_lang['content_type'] = 'Typ źmieściva';
 $_lang['content_type_desc'] = 'Typy źmieściva - heta kankretnyja typy fajlaŭ dlia vašych resursaŭ. Tut vy možacie kiravać imi, a taksama źviazać ich z pašyreńniem fajlaŭ.';
 $_lang['content_type_err_nf'] = 'Typ źmieściva nie znojdzieny.';

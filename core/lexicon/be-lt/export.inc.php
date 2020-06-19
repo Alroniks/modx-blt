@@ -8,7 +8,7 @@
  * @subpackage	lexicon
  */
 $_lang['export_site_cacheable'] = 'Ŭkliučać niekešujemyja fajly:';
-$_lang['export_site_exporting_document'] = 'Ekspartujecca fajl <strong>%s</strong> z <strong>%s</strong><br />\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;<small><i>%s</i>, id %s</small><br />\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;\&nbsp\;';
+$_lang['export_site_exporting_document'] = 'Ekspartujecca fajl <strong>%s</strong> z <strong>%s</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>%s</i>, id %s</small><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 $_lang['export_site_failed'] = '<span style=color:#990000>Niaŭdala!</span>';
 $_lang['export_site_html'] = 'Ekspartavać sajt u HTML';
 $_lang['export_site_maxtime'] = 'Maksimaĺny čas ekspartu:';

@@ -33,7 +33,7 @@ $_lang['menus'] = 'Mieniu';
 $_lang['namespace'] = 'Prastora imionaŭ';
 $_lang['namespace_desc'] = 'Prastora imionaŭ na jakoj asnavany hety eliemient mieniu. Hetaja nalada vyznačyć šliach dlia zahružajemaha kantroliera.';
 $_lang['parameters'] = 'Paramietry';
-$_lang['parameters_desc'] = 'Liubyja paramietry, jakija vy chočacie dadać da vynikovaj URL u čas kliku pa hetym mieniu. (Napryklad: \&expier=1)';
+$_lang['parameters_desc'] = 'Liubyja paramietry, jakija vy chočacie dadać da vynikovaj URL u čas kliku pa hetym mieniu. (Napryklad: &expier=1)';
 $_lang['permissions'] = 'Dazvoly';
 $_lang['permissions_desc'] = 'Kliuč dazvolu jaki patrebny dlia zahruzki hetaha eliemienta mieniu.';
 $_lang['topmenu'] = 'Vierchniaje mieniu';

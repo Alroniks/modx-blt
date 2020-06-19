@@ -16,7 +16,7 @@ $_lang['login_blocked_time'] = 'Vam zabaroniena ŭvachodzić u sistemu kiravańn
 $_lang['login_blocked_too_many_attempts'] = 'Vy byli zablakavanyja z-za zanadta vialikaj koĺkaści niaŭdalych sprobaŭ uvachodu.';
 $_lang['login_button'] = 'Uvajści';
 $_lang['login_cannot_locate_account'] = 'Niapraviĺnaje imia karystaĺnika abo paroĺ. Kali laska, praviercie uviedzienyja dadzienyja i pasprabujcie znoŭ.';
-$_lang['login_copyright'] = '\&copy\; 2005-[[+current_year]] by <a href=http://modx.com/about/ target=_blank>MODX, LLC</a>. MODX Revolution\&trade\; raspaŭsiudžvajecca pad licenzijaj GPLv2 ci pa boĺš poźniaj viersii hetaj licenzii.';
+$_lang['login_copyright'] = '&copy; 2005-[[+current_year]] by <a href=http://modx.com/about/ target=_blank>MODX, LLC</a>. MODX Revolution&trade; raspaŭsiudžvajecca pad licenzijaj GPLv2 ci pa boĺš poźniaj viersii hetaj licenzii.';
 $_lang['login_email_label'] = 'Email ŭlikovaha zapisu:';
 $_lang['login_err_unknown'] = 'Pry sprobie aŭtaryzacyi adbylasia nieviadomaja pamylka.';
 $_lang['login_forget_your_login'] = 'Zapamiatavali svajo imia karystaĺnika?';
