@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.4",
         "alroniks/yamb": "dev-master",
         "nette/finder": "^3.0@dev",
         "nette/php-generator": "^3.4@dev"

@@ -66,7 +66,7 @@ class Converter
         /** @var string $entry */
         foreach ($entries as $key => &$entry)
         {
-            $entry = $this->lexiconEntryBuilder($key, $this->convertLine($entry));
+            $entry = $this->lexiconEntryBuilder($key, $this->sanitizeLine($this->convertLine($entry)));
         }
 
         $topic = ucfirst(str_replace('.inc.php', '', $file->getFilename()));
@@ -104,6 +104,18 @@ class Converter
         $command = escapeshellcmd(sprintf(__DIR__ . '/../scripts/blt.py "%s"', $line));
 
         return trim(shell_exec($command));
+    }
+
+    protected function sanitizeLine(string $line): string
+    {
+        $replacements = ['?',
+            '<', '>',
+            '{', '}',
+            '[', ']',
+            '(', ')'
+        ];
+
+        return str_replace(array_map(fn($v) => '\\' . $v, $replacements), $replacements, $line);
     }
 
     /**
