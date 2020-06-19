@@ -8,12 +8,12 @@
  * @subpackage	lexicon
  */
 $_lang['configcheck_admin'] = 'Kali laska, źviažyciesia z sistemnym administrataram i papiaredźcie jaho ab hetym paviedamlieńni!';
-$_lang['configcheck_allowtagsinpost_context_enabled'] = 'Nalada kantekstu allow_tags_in_post ukliučana za miežami \mgr\';
+$_lang['configcheck_allowtagsinpost_context_enabled'] = 'Nalada kantekstu allow_tags_in_post ukliučana za miežami &quot;mgr&quot;';
 $_lang['configcheck_allowtagsinpost_context_enabled_msg'] = 'Nalada allow_tags_in_post dazvoliena dlia kantekstaŭ ŭ vašaj ustalioŭcy za miežami kantekstu mgr. MODX rekamienduje adkliučyć hetuju naladu, kali vam nie treba vidavočna dazvaliać karystaĺnikam dasylać MODX-tehi, ličbavyja sutnaści abo HTML-tehi praz mietad POST u formach na vašym sajcie. Jana pavinna być usiudy adkliučana, za vykliučeńniem kantekstu mgr.';
 $_lang['configcheck_allowtagsinpost_system_enabled'] = 'Sistemnaja nalada allow_tags_in_post ukliučana';
 $_lang['configcheck_allowtagsinpost_system_enabled_msg'] = 'Sistemnaja nalada allow_tags_in_post ukliučana ŭ vašaj ŭstalioŭcy. MODX rekamienduje adkliučyć hetuju naladu, kali vam nie patrebna vidavočna dazvaliać karystaĺnikam dasylać MODX-tehi, ličbavyja sutnaści abo HTML-tehi praz POST-mietad u formach na vašym sajcie. Liepš ukliučyć jaje dlia asobnych kantekstaŭ praz nalady kantekstu.';
 $_lang['configcheck_cache'] = 'Kataloh keša niedastupny dlia zapisu';
-$_lang['configcheck_cache_msg'] = 'MODX nie moža ničoha zapisvać u kataloh keša. MODX budzie pracavać biez kešavańnia. Kab vyrašyć hetuju prabliemu, zrabicie kataloh \core/cache\ dastupnym dlia zapisu.';
+$_lang['configcheck_cache_msg'] = 'MODX nie moža ničoha zapisvać u kataloh keša. MODX budzie pracavać biez kešavańnia. Kab vyrašyć hetuju prabliemu, zrabicie kataloh &quot;core/cache&quot; dastupnym dlia zapisu.';
 $_lang['configcheck_configinc'] = 'Kanfihuracyjny fajl adkryty dlia zapisu!';
 $_lang['configcheck_configinc_msg'] = 'Vaš sajt z&apos;jaŭliajecca ŭraźlivym dlia chakieraŭ, jakija mohuć nanieści sur&apos;joznuju škodu vašamu sajtu. Kali laska, zrabicie kanfihuracyjny fajl dastupnym toĺki dlia čytańnia! Kali vy nie administratar sajta, źviažyciesia z sistemnym administrataram i papiaredźcie jaho ab hetym paviedamlienni! Fajl raźmieščany ŭ [[+path]]';
 $_lang['configcheck_default_msg'] = 'Nieviadomaje papiaredžańnie bylo znojdziena. Heta dziŭna.';
