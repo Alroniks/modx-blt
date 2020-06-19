@@ -1,71 +1,72 @@
 <?php
+
 /**
- * Package Builder Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Package_builder
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['as_system_settings'] = 'Сістэмныя налады';
-$_lang['as_context_settings'] = 'Налады кантэксту';
-$_lang['as_lexicon_entries'] = 'Запісы слоўніка';
-$_lang['as_lexicon_topics'] = 'Тэмы слоўніка';
-$_lang['build'] = 'Пабудаваць';
-$_lang['class_key'] = 'Ключ класа';
-$_lang['class_key_desc'] = 'Тып аб\'екта, які вы хацелі б дадаць у кантэйнер.';
-$_lang['class_key_custom'] = 'Або карыстацкі клас';
-$_lang['class_key_custom_desc'] = 'Тут вы можаце пазначыць карыстацкае імя класа xPDOObject, якога няма ў спісе вышэй.';
-$_lang['file'] = 'Файл';
-$_lang['index'] = 'Індэкс';
-$_lang['object'] = 'Аб\'ект';
-$_lang['object_id'] = 'ID аб\'екта';
-$_lang['object_id_desc'] = 'Дакладны аб\'ект які вы жадаеце дадаць. Абавязкова.';
-$_lang['package_autoselects'] = 'Аўтададанне пакета';
-$_lang['package_autoselects_desc'] = 'Калі ласка, выберыце рэсурсы, якія пакетны будаўнік павінен дадаць у пакет аўтаматычна. Важна: калі адбываецца сборка з ядра, рэкамендуецца нічога не выбіраць.';
-$_lang['package_build'] = 'Збудаваць пакет';
-$_lang['package_build_desc'] = 'Цяпер вы гатовыя да збудавання пакета. Пасля збудавання ён будзе змешчаны ў каталог core/packages.';
-$_lang['package_build_err'] = 'Адбылася памылка пры спробе збудаваць пакет.';
-$_lang['package_build_xml'] = 'Пабудаваць пакет з XML';
-$_lang['package_build_xml_desc'] = 'Калі ласка выберыце правільны XML файл сборкі для вашага кампанента.';
-$_lang['package_builder'] = 'Пакетны будаўнік';
-$_lang['package_built'] = 'Пакет быў пабудаваны.';
-$_lang['package_info'] = 'Інфармацыя аб пакеце';
-$_lang['package_info_desc'] = 'Спачатку пазначце інфармацыю аб пакеце, то бок назву, версію і рэліз.';
-$_lang['package_method'] = 'Выбраць метад сборкі';
-$_lang['package_method_desc'] = 'Калі ласка, абярыце пажаданы спосаб стварэння пакета.';
-$_lang['php_script'] = 'PHP скрыпт';
-$_lang['preserve_keys'] = 'Захоўваць ключы';
-$_lang['preserve_keys_desc'] = 'Гэта дазволіць захаваць першасныя ключы да значэнняў такімі, якія яны зараз у базе дадзеных.';
-$_lang['release'] = 'Выпуск';
-$_lang['resolve_files'] = 'Дадаць файлы';
-$_lang['resolve_files_desc'] = 'Калі сцяжок усталяваны, то будуць скапіяваны файлы, пазначаныя ў вырашальніках.';
-$_lang['resolve_php'] = 'Дадаць PHP скрыпты';
-$_lang['resolve_php_desc'] = 'Калі сцяжок усталяваны, то будуць выкананы PHP скрыпты, пазначаныя ў вырашальніках.';
-$_lang['resolver_add'] = 'Дадаць вырашальнік';
-$_lang['resolver_create'] = 'Стварыць вырашальнік';
-$_lang['resolver_name_desc'] = 'Назва вырашальніка. Выкарыстоўваецца для арганізацыйных мэтаў.';
-$_lang['resolver_remove'] = 'Выдаліць вырашальнік';
-$_lang['resolver_remove_confirm'] = 'Вы сапраўды жадаеце выдаліць гэты вырашальнік?';
-$_lang['resolver_source_desc'] = 'Абсалютны шлях да крыніцы вырашальніка. Калі гэта файлавы вырашальнік, выберыце каталог з файламі, якія патрэбна скапіяваць. Калі PHP скрыпт, пазначце скрыпт. Прыклад: <br /><br />/public_html/modx/_build/components/demo/';
-$_lang['resolver_target_desc'] = 'Абсалютны шлях да месца, куды вырашальнік павінен пакласці файлы ці скрыпты. Звычайна вам не спатрэбіцца мяняць гэта. Прыклад: <br /><br />return MODX_ASSETS_PATH . "snippets/";';
-$_lang['resolver_type_desc'] = 'Файлавыя вырашальнікі забяспечваюць капіяванне ўсіх файлаў з зыходнага каталога ў мэтавы. PHP Script вырашальнікі выконваюць зыходны файл як PHP код.';
-$_lang['resolvers'] = 'Вырашальнікі';
-$_lang['source'] = 'Крыніца';
-$_lang['target'] = 'Мэта';
-$_lang['type'] = 'Тып';
-$_lang['unique_key'] = 'Унікальны ключ';
-$_lang['unique_key_desc'] = 'Унікальны ключ, які пазначае, як шукаць аб\'ект. Можа быць радком або падзеленым коскамі спісам. Прыклады: <br />"name" для modPlugin<br />"templatename" для modTemplate<br />Ці большо складана, "pluginid,evtid" для modPluginEvent';
-$_lang['update_object'] = 'Абнавіць аб\'ект';
-$_lang['update_object_desc'] = 'Калі абрана, аб\'ект будзе абноўлены на момант, калі ён будзе знойдзены. Калі не абрана, аб\'ект не будзе захаваны, калі ён ужо існуе.';
-$_lang['use_wizard'] = 'Выкарыстоўваць майстар сборкі';
-$_lang['use_xml'] = 'Збудаваць з XML файла';
-$_lang['vehicle'] = 'Кантэйнер';
-$_lang['vehicle_add'] = 'Дадаць кантэйнер';
-$_lang['vehicle_create'] = 'Стварыць кантэйнер';
-$_lang['vehicle_remove'] = 'Выдаліць кантэйнер';
-$_lang['vehicle_remove_confirm'] = 'Вы сапраўды жадаеце выдаліць гэты кантэйнер?';
-$_lang['vehicles'] = 'Кантэйнеры';
-$_lang['vehicles_add'] = 'Дадаць кантэйнеры';
-$_lang['vehicles_desc'] = 'Кантэйнеры гэта аб\'екты, з якіх складаецца пакет. Вы можате дадаць іх тут.';
-$_lang['version'] = 'Версія';
-$_lang['xml_file_err_upload'] = 'Адбылася памылка пры спробе загрузіць XML файл.';
+$_lang['as_system_settings'] = 'Sistemnyja nalady';
+$_lang['as_context_settings'] = 'Nalady kantekstu';
+$_lang['as_lexicon_entries'] = 'Zapisy sloŭnika';
+$_lang['as_lexicon_topics'] = 'Temy sloŭnika';
+$_lang['build'] = 'Pabudavać';
+$_lang['class_key'] = 'Kliuč klasa';
+$_lang['class_key_desc'] = 'Typ ab&apos;jekta, jaki vy chacieli b dadać u kantejnier.';
+$_lang['class_key_custom'] = 'Abo karystacki klas';
+$_lang['class_key_custom_desc'] = 'Tut vy možacie paznačyć karystackaje imia klasa xPDOObject, jakoha niama ŭ śpisie vyšej.';
+$_lang['file'] = 'Fajl';
+$_lang['index'] = 'Indeks';
+$_lang['object'] = 'Ab&apos;jekt';
+$_lang['object_id'] = 'ID ab&apos;jekta';
+$_lang['object_id_desc'] = 'Dakladny ab&apos;jekt jaki vy žadajecie dadać. Abaviazkova.';
+$_lang['package_autoselects'] = 'Aŭtadadańnie pakieta';
+$_lang['package_autoselects_desc'] = 'Kali laska, vybierycie resursy, jakija pakietny budaŭnik pavinien dadać u pakiet aŭtamatyčna. Važna: kali adbyvajecca sborka z jadra, rekamiendujecca ničoha nie vybirać.';
+$_lang['package_build'] = 'Zbudavać pakiet';
+$_lang['package_build_desc'] = 'Ciapier vy hatovyja da zbudavańnia pakieta. Paślia zbudavańnia jon budzie źmieščany ŭ kataloh core/packages.';
+$_lang['package_build_err'] = 'Adbylasia pamylka pry sprobie zbudavać pakiet.';
+$_lang['package_build_xml'] = 'Pabudavać pakiet z XML';
+$_lang['package_build_xml_desc'] = 'Kali laska vybierycie praviĺny XML fajl sborki dlia vašaha kampanienta.';
+$_lang['package_builder'] = 'Pakietny budaŭnik';
+$_lang['package_built'] = 'Pakiet byŭ pabudavany.';
+$_lang['package_info'] = 'Infarmacyja ab pakiecie';
+$_lang['package_info_desc'] = 'Spačatku paznačcie infarmacyju ab pakiecie, to bok nazvu, viersiju i reliz.';
+$_lang['package_method'] = 'Vybrać mietad sborki';
+$_lang['package_method_desc'] = 'Kali laska, abiarycie pažadany sposab stvareńnia pakieta.';
+$_lang['php_script'] = 'PHP skrypt';
+$_lang['preserve_keys'] = 'Zachoŭvać kliučy';
+$_lang['preserve_keys_desc'] = 'Heta dazvolić zachavać pieršasnyja kliučy da značeńniaŭ takimi, jakija jany zaraz u bazie dadzienych.';
+$_lang['release'] = 'Vypusk';
+$_lang['resolve_files'] = 'Dadać fajly';
+$_lang['resolve_files_desc'] = 'Kali ściažok ustaliavany, to buduć skapijavany fajly, paznačanyja ŭ vyrašaĺnikach.';
+$_lang['resolve_php'] = 'Dadać PHP skrypty';
+$_lang['resolve_php_desc'] = 'Kali ściažok ustaliavany, to buduć vykanany PHP skrypty, paznačanyja ŭ vyrašaĺnikach.';
+$_lang['resolver_add'] = 'Dadać vyrašaĺnik';
+$_lang['resolver_create'] = 'Stvaryć vyrašaĺnik';
+$_lang['resolver_name_desc'] = 'Nazva vyrašaĺnika. Vykarystoŭvajecca dlia arhanizacyjnych metaŭ.';
+$_lang['resolver_remove'] = 'Vydalić vyrašaĺnik';
+$_lang['resolver_remove_confirm'] = 'Vy sapraŭdy žadajecie vydalić hety vyrašaĺnik?';
+$_lang['resolver_source_desc'] = 'Absaliutny šliach da krynicy vyrašaĺnika. Kali heta fajlavy vyrašaĺnik, vybierycie kataloh z fajlami, jakija patrebna skapijavać. Kali PHP skrypt, paznačcie skrypt. Pryklad: <br /><br />/public_html/modx/_build/components/demo/';
+$_lang['resolver_target_desc'] = 'Absaliutny šliach da miesca, kudy vyrašaĺnik pavinien paklaści fajly ci skrypty. Zvyčajna vam nie spatrebicca mianiać heta. Pryklad: <br /><br />return MODX_ASSETS_PATH . snippets/;';
+$_lang['resolver_type_desc'] = 'Fajlavyja vyrašaĺniki zabiaśpiečvajuć kapijavańnie ŭsich fajlaŭ z zychodnaha kataloha ŭ metavy. PHP Script vyrašaĺniki vykonvajuć zychodny fajl jak PHP kod.';
+$_lang['resolvers'] = 'Vyrašaĺniki';
+$_lang['source'] = 'Krynica';
+$_lang['target'] = 'Meta';
+$_lang['type'] = 'Typ';
+$_lang['unique_key'] = 'Unikaĺny kliuč';
+$_lang['unique_key_desc'] = 'Unikaĺny kliuč, jaki paznačaje, jak šukać ab&apos;jekt. Moža być radkom abo padzielienym koskami śpisam. Pryklady: <br />name dlia modPlugin<br />templatename dlia modTemplate<br />Ci boĺšo skladana, pluginid,evtid dlia modPluginEvent';
+$_lang['update_object'] = 'Abnavić ab&apos;jekt';
+$_lang['update_object_desc'] = 'Kali abrana, ab&apos;jekt budzie abnoŭlieny na momant, kali jon budzie znojdzieny. Kali nie abrana, ab&apos;jekt nie budzie zachavany, kali jon užo isnuje.';
+$_lang['use_wizard'] = 'Vykarystoŭvać majstar sborki';
+$_lang['use_xml'] = 'Zbudavać z XML fajla';
+$_lang['vehicle'] = 'Kantejnier';
+$_lang['vehicle_add'] = 'Dadać kantejnier';
+$_lang['vehicle_create'] = 'Stvaryć kantejnier';
+$_lang['vehicle_remove'] = 'Vydalić kantejnier';
+$_lang['vehicle_remove_confirm'] = 'Vy sapraŭdy žadajecie vydalić hety kantejnier?';
+$_lang['vehicles'] = 'Kantejniery';
+$_lang['vehicles_add'] = 'Dadać kantejniery';
+$_lang['vehicles_desc'] = 'Kantejniery heta ab&apos;jekty, z jakich skladajecca pakiet. Vy možatie dadać ich tut.';
+$_lang['version'] = 'Viersija';
+$_lang['xml_file_err_upload'] = 'Adbylasia pamylka pry sprobie zahruzić XML fajl.';

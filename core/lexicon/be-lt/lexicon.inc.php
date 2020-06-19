@@ -1,35 +1,36 @@
 <?php
+
 /**
- * Lexicon Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Lexicon
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['duplicate'] = 'Дубляваць';
-$_lang['entry'] = 'Запіс';
-$_lang['entry_create'] = 'Стварыць запіс';
-$_lang['entry_err_ae'] = 'Такі запіс ўжо існуе!';
-$_lang['entry_err_nf'] = 'Запіс не знойдзены.';
-$_lang['entry_err_ns'] = 'Запіс не пазначаны.';
-$_lang['entry_err_save'] = 'Адбылася памылка пры спробе захаваць запіс слоўніка.';
-$_lang['entry_revert'] = 'Аднавіць запіс слоўніка';
-$_lang['language'] = 'Мова';
-$_lang['languages'] = 'Мовы';
-$_lang['last_modified'] = 'Апошняя змена';
-$_lang['lexicon'] = 'Слоўнік';
-$_lang['lexicon_export'] = 'Экспарт тэмы слоўніка';
-$_lang['lexicon_export_desc'] = 'Тут вы можаце выбраць тэму слоўніка для экспарту ў файл.';
-$_lang['lexicon_topics'] = 'Тэмы слоўніка';
-$_lang['lexicon_topics_desc'] = 'Тут вы можаце кіраваць тэмамі вашага слоўніка.';
-$_lang['lexicon_import'] = 'Імпарт тэмы слоўніка';
-$_lang['lexicon_import_desc'] = 'Вы можаце імпартаваць файл для загрузкі ў пэўную тэму слоўніка ў гэтай прасторы імёнаў. Ваш файл павінен змяшчаць $_lang - асацыятыўны масіў радкоў, як у файлах core/lexicon. Калі такая тэма ўжо існуе ў гэтай прасторы імёнаў, то яна будзе перапісаная.';
-$_lang['lexicon_import_err_ns'] = 'Файл тэмы слоўніка не пазначаны.';
-$_lang['lexicon_import_err_upload'] = 'Адбылася памылка пры спробе загрузіць новы файл тэмы слоўніка. Праверце правы доступу вашага вэб-сервера, паспрабаваўшы загрузіць файлы ў часовую дырэкторыю і пераканайцеся што файл, які вы спрабуеце загрузіць, не ўтрымлівае памылак.';
-$_lang['lexicon_management'] = 'Кіраванне слоўнікамі';
-$_lang['lexicon_management_desc'] = 'Тут вы можаце перазапісаць любы запіс слоўніка пэўнай прасторы iменаў і адпаведнай ёй тэмы. Проста двойчы націсніце на любы запіс, каб змяніць яго. Каб дадаць новы запіс у слоўнік або тэму, проста стварыце файлы тэмаў у каталогу з імем адпаведнай прасторы імёнаў.<br /><b>Кожны запіс будзе даступны праз запаўняльнік [[%name]].</b>';
-$_lang['lexicon_rlfb_msg'] = 'Паспяхова адноўлена [[+num]] радкоў.';
-$_lang['reload_from_base'] = 'Аднавіць усе асноўныя запісы';
-$_lang['reload_success'] = 'Запісы паспяхова перазагружаныя ([[+total]] шт.).';
-$_lang['search_by_key'] = 'Шукаць па ключы:';
-$_lang['topic'] = 'Тэма';
+$_lang['duplicate'] = 'Dubliavać';
+$_lang['entry'] = 'Zapis';
+$_lang['entry_create'] = 'Stvaryć zapis';
+$_lang['entry_err_ae'] = 'Taki zapis ŭžo isnuje!';
+$_lang['entry_err_nf'] = 'Zapis nie znojdzieny.';
+$_lang['entry_err_ns'] = 'Zapis nie paznačany.';
+$_lang['entry_err_save'] = 'Adbylasia pamylka pry sprobie zachavać zapis sloŭnika.';
+$_lang['entry_revert'] = 'Adnavić zapis sloŭnika';
+$_lang['language'] = 'Mova';
+$_lang['languages'] = 'Movy';
+$_lang['last_modified'] = 'Apošniaja źmiena';
+$_lang['lexicon'] = 'Sloŭnik';
+$_lang['lexicon_export'] = 'Ekspart temy sloŭnika';
+$_lang['lexicon_export_desc'] = 'Tut vy možacie vybrać temu sloŭnika dlia ekspartu ŭ fajl.';
+$_lang['lexicon_topics'] = 'Temy sloŭnika';
+$_lang['lexicon_topics_desc'] = 'Tut vy možacie kiravać temami vašaha sloŭnika.';
+$_lang['lexicon_import'] = 'Impart temy sloŭnika';
+$_lang['lexicon_import_desc'] = 'Vy možacie impartavać fajl dlia zahruzki ŭ peŭnuju temu sloŭnika ŭ hetaj prastory imionaŭ. Vaš fajl pavinien źmiaščać $_lang - asacyjatyŭny masiŭ radkoŭ, jak u fajlach core/lexicon. Kali takaja tema ŭžo isnuje ŭ hetaj prastory imionaŭ, to jana budzie pierapisanaja.';
+$_lang['lexicon_import_err_ns'] = 'Fajl temy sloŭnika nie paznačany.';
+$_lang['lexicon_import_err_upload'] = 'Adbylasia pamylka pry sprobie zahruzić novy fajl temy sloŭnika. Praviercie pravy dostupu vašaha veb-sierviera, pasprabavaŭšy zahruzić fajly ŭ časovuju dyrektoryju i pierakanajciesia što fajl, jaki vy sprabujecie zahruzić, nie ŭtrymlivaje pamylak.';
+$_lang['lexicon_management'] = 'Kiravańnie sloŭnikami';
+$_lang['lexicon_management_desc'] = 'Tut vy možacie pierazapisać liuby zapis sloŭnika peŭnaj prastory imienaŭ i adpaviednaj joj temy. Prosta dvojčy naciśnicie na liuby zapis, kab źmianić jaho. Kab dadać novy zapis u sloŭnik abo temu, prosta stvarycie fajly temaŭ u katalohu z imiem adpaviednaj prastory imionaŭ.<br /><b>Kožny zapis budzie dastupny praz zapaŭniaĺnik [[%name]].</b>';
+$_lang['lexicon_rlfb_msg'] = 'Paśpiachova adnoŭliena [[+num]] radkoŭ.';
+$_lang['reload_from_base'] = 'Adnavić usie asnoŭnyja zapisy';
+$_lang['reload_success'] = 'Zapisy paśpiachova pierazahružanyja ([[+total]] št.).';
+$_lang['search_by_key'] = 'Šukać pa kliučy:';
+$_lang['topic'] = 'Tema';

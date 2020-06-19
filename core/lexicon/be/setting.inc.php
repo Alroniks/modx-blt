@@ -1,4 +1,4 @@
-<?php
+setting_link_tag_scheme_desc<?php
 /**
  * Setting Belarusian Latin lexicon topic
  *
@@ -371,7 +371,7 @@ $_lang['setting_inline_help'] = 'Паказваць тэкст падказкі 
 $_lang['setting_inline_help_desc'] = 'Калі выбрана «Так», тэкст падказкі будзе выводзіцца непасрэдна пад полем. Калі выбрана «Не», падказкі будуць «усплывальнымі».';
 
 $_lang['setting_link_tag_scheme'] = 'Схема генерацыі URL';
-$_lang['setting_link_tag_scheme_desc'] = 'Схема генерацыі URL для тэга [[~id]]. Даступныя опцыі глядзіце <a href="http://api.modx.com/revolution/2.2/db_core_model_modx_modx.class.html#\modX::makeUrl()">тут</a>.';
+$_lang['setting_link_tag_scheme_desc'] = 'Схема генерацыі URL для тэга [[~id]]. Даступныя опцыі глядзіце <a href="http://api.modx.com/revolution/2.2/db_core_model_modx_modx.class.html#modX::makeUrl()">тут</a>.';
 
 $_lang['setting_locale'] = 'Лакаль';
 $_lang['setting_locale_desc'] = 'Усталёўвае лакаль для сістэмы. Пакіньце пустым, каб выкарыстоўваць лакаль па змаўчанні. Глядзіце <a href="http://php.net/setlocale" target="_blank">дакументацыю PHP</a> для атрымання дадатковай інфармацыі.';

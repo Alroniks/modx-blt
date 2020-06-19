@@ -1,15 +1,16 @@
 <?php
+
 /**
- * REST lexicon topic
+ * Belarusian Latin lexicon – topic Rest
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['error'] = 'Памылка!';
-$_lang['rest.err_class_remove'] = 'Адбылася памылка пры спробе выдаліць [[+class_key]]';
-$_lang['rest.err_class_save'] = 'Адбылася памылка пры спробе захаваць [[+class_key]]';
-$_lang['rest.err_field_ns'] = 'Поле [[+field]] не пазначана!';
-$_lang['rest.err_field_required'] = 'Гэта поле абавязковае.';
-$_lang['rest.err_fields_required'] = 'Наступныя палі з\'яўляюцца абавязковымі: [[+fields]]';
-$_lang['rest.err_obj_nf'] = 'Аб\'ект класа [[+class_key]] не знойдзены!';
+$_lang['error'] = 'Pamylka!';
+$_lang['rest.err_class_remove'] = 'Adbylasia pamylka pry sprobie vydalić [[+class_key]]';
+$_lang['rest.err_class_save'] = 'Adbylasia pamylka pry sprobie zachavać [[+class_key]]';
+$_lang['rest.err_field_ns'] = 'Polie [[+field]] nie paznačana!';
+$_lang['rest.err_field_required'] = 'Heta polie abaviazkovaje.';
+$_lang['rest.err_fields_required'] = 'Nastupnyja pali z&apos;jaŭliajucca abaviazkovymi: [[+fields]]';
+$_lang['rest.err_obj_nf'] = 'Ab&apos;jekt klasa [[+class_key]] nie znojdzieny!';

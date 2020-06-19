@@ -1,15 +1,16 @@
 <?php
+
 /**
- * System Events Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic System_events
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['clear'] = 'Ачысціць';
-$_lang['error_log'] = 'Лог памылак';
-$_lang['error_log_desc'] = 'Лог памылак MODX Revolution:';
-$_lang['error_log_download'] = 'Спампаваць лог памылак ([[+size]])';
-$_lang['error_log_too_large'] = 'Лог памылак <em>[[+name]]</ em> занадта вялікі для прагляду. Вы можаце спампаваць лог, націснуўшы на кнопку ніжэй.';
-$_lang['system_events'] = 'Сістэмныя падзеі';
-$_lang['priority'] = 'Прыярытэт';
+$_lang['clear'] = 'Ačyścić';
+$_lang['error_log'] = 'Loh pamylak';
+$_lang['error_log_desc'] = 'Loh pamylak MODX Revolution:';
+$_lang['error_log_download'] = 'Spampavać loh pamylak ([[+size]])';
+$_lang['error_log_too_large'] = 'Loh pamylak <em>[[+name]]</ em> zanadta vialiki dlia prahliadu. Vy možacie spampavać loh, nacisnuŭšy na knopku nižej.';
+$_lang['system_events'] = 'Sistemnyja padziei';
+$_lang['priority'] = 'Pryjarytet';

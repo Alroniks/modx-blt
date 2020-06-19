@@ -1,49 +1,44 @@
 <?php
+
 /**
- * Config Check Belarusian Latin lexicon topic
+ * Belarusian Latin lexicon – topic Configcheck
  *
- * @language en
- * @package modx
- * @subpackage lexicon
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
  */
-$_lang['configcheck_admin'] = 'Калі ласка, звяжыцеся з сістэмным адміністратарам і папярэдзьце яго аб гэтым паведамленні!';
-$_lang['configcheck_allowtagsinpost_context_enabled'] = 'Налада кантэксту allow_tags_in_post уключана за межамі \'mgr\'';
-$_lang['configcheck_allowtagsinpost_context_enabled_msg'] = 'Налада allow_tags_in_post дазволена для кантэкстаў ў вашай усталёўцы за межамі кантэксту mgr. MODX рэкамендуе адключыць гэтую наладу, калі вам не трэба відавочна дазваляць карыстальнікам дасылаць MODX-тэгі, лiчбавыя сутнасці або HTML-тэгі праз метад POST у формах на вашым сайце. Яна павінна быць усюды адключана, за выключэннем кантэксту mgr.';
-$_lang['configcheck_allowtagsinpost_system_enabled'] = 'Сістэмная налада allow_tags_in_post уключана';
-$_lang['configcheck_allowtagsinpost_system_enabled_msg'] = 'Сістэмная налада allow_tags_in_post уключана ў вашай ўсталёўцы. MODX рэкамендуе адключыць гэтую наладу, калі вам не патрэбна відавочна дазваляць карыстальнікам дасылаць MODX-тэгі, лiчбавыя сутнасці або HTML-тэгі праз POST-метад у формах на вашым сайце. Лепш уключыць яе для асобных кантэкстаў праз налады кантэксту.';
-$_lang['configcheck_cache'] = 'Каталог кэша недаступны для запісу';
-$_lang['configcheck_cache_msg'] = 'MODX не можа нічога запісваць у каталог кэша. MODX будзе працаваць без кэшавання. Каб вырашыць гэтую праблему, зрабіце каталог \'core/cache\' даступным для запісу.';
-$_lang['configcheck_configinc'] = 'Канфігурацыйны файл адкрыты для запісу!';
-$_lang['configcheck_configinc_msg'] = 'Ваш сайт з\'яўляецца ўразлівым для хакераў, якія могуць нанесці сур\'ёзную шкоду вашаму сайту. Калі ласка, зрабіце канфігурацыйны файл даступным толькі для чытання! Калі вы не адміністратар сайта, звяжыцеся з сістэмным адміністратарам і папярэдзьце яго аб гэтым паведамленнi! Файл размешчаны ў [[+path]]';
-$_lang['configcheck_default_msg'] = 'Невядомае папярэджанне было знойдзена. Гэта дзіўна.';
-$_lang['configcheck_errorpage_unavailable'] = 'Старонка "Памылка 404. Дакумент не знойдзены" недаступная.';
-$_lang['configcheck_errorpage_unavailable_msg'] = 'Гэта азначае, што старонка "Памылка 404. Дакумент не знойдзены" не даступная для наведвальнікаў сайта або не існуе. Гэта можа прывесці да ўзнікнення рэкурсіўнага зацыклення і шматлікіх памылак у журнале памылак сайта. Пераканайцеся ў тым, што доступ для web-карыстальнікаў не абмежаваны да гэтай старонкі.';
-$_lang['configcheck_errorpage_unpublished'] = 'Старонка "Памылка 404. Дакумент не знойдзены" вашага сайта не апублікаваная ці не існуе.
-';
-$_lang['configcheck_errorpage_unpublished_msg'] = 'Гэта азначае, што старонка "Памылка 404. Дакумент не знойдзены" не даступна для наведвальнікаў сайта. Апублікуйце гэтую старонку або пераканайцеся, што яе ідэнтыфікатар правільна пазначаны ў наладах сістэмы.';
-$_lang['configcheck_htaccess'] = 'Каталог ядра даступны для ўсіх';
-$_lang['configcheck_htaccess_msg'] = 'MODX выявіў, што ваш асноўны каталог (часткова) даступны для грамадскасці.
-<strong>Гэта не рэкамендуецца з меркаванняў бяспекі.</strong>
-Калі ваша ўстаноўка MODX запушчана на веб-серверы Apache, вам варта прынамсі наладзіць файл .htaccess ўнутры каталога з файламі ядра: <em>[[+fileLocation]]</em>. 
-Гэта можна лёгка зрабіць, пераназваўшы ўжо існуючы там файл ht.access ў .htaccess.
-<p>Існуюць іншыя метады і серверы, якія вы можаце выкарыстоўваць, азнаёміўшыся з <a href="https://rtfm.modx.com/revolution/2.x/administering-your-site/security/hardening-modx-revolution">Кіраўніцтвам па «загартоўцы» MODX</a> для атрымання дадатковай інфармацыі пра бяспеку вашага сайта.</p>
-Калі вы наладзілі ўсё правільна, то пры адкрыцці <a href="[[+checkUrl]]" target="_blank">спісу змен</a> старонка павінна вярнуць вам памылку 403 (доступ забаронены), а лепш памылку 404 (старонка не знойдзена). Калі ж вы можаце адкрыць гэты спіс зменаў у браўзэры, нешта яшчэ не наладжана як след, і вам варта праверыць налады або звярнуцца да экспертаў, каб вырашыць гэтую праблему.';
-$_lang['configcheck_images'] = 'Папка выяваў недаступная для запісу';
-$_lang['configcheck_images_msg'] = 'Каталог для выяваў недаступны для запісу або не існуе. Гэта азначае, што кіраванне выявамі працаваць не будзе!';
-$_lang['configcheck_installer'] = 'Не выдалена папка з файламі ўсталёўкі';
-$_lang['configcheck_installer_msg'] = 'Каталог "setup/" утрымлівае файлы ўсталёўкі MODX. Толькі ўявіце сабе, што можа адбыцца, калі злаўмыснік знойдзе яе і запусціць ўсталёўку! Ён, верагодна, не прасунецца далёка, таму што павінен будзе ўвесці некаторую карыстальнiцкую інфармацыю для базы дадзеных, але ўсё ж такі лепш выдаліць гэтую папку з вашага сервера. Яна размешчана ў: [[+path]]';
-$_lang['configcheck_lang_difference'] = 'Няправільная колькасць запісаў у моўным файле';
-$_lang['configcheck_lang_difference_msg'] = 'Колькасць запісаў у абранай мове адрозніваецца ад колькасці запісаў у мове па змаўчанні. Гэта не з\'яўляецца крытычнай памылкай, аднак гэта падстава для абнаўлення моўных файлаў.';
-$_lang['configcheck_notok'] = 'У наладах сістэмы прысутнічаюць памылкі: ';
-$_lang['configcheck_ok'] = 'Праверка прайшла паспяхова — няма папярэджанняў для вываду.';
-$_lang['configcheck_phpversion'] = 'Версія PHP састарэла';
-$_lang['configcheck_phpversion_msg'] = 'Ваша версія PHP [[+phpversion]] больш не падтрымліваецца распрацоўнікамі PHP, што азначае аніякіх абнаўленняў бяспекі. Таксама верогадна, што MODX ці пакет дадання цяпер ці ў бліжэйшай будучыні больш не будзе падтрымлівать гэтую версію. Калі ласка абнавіце атачэнне па меншай меры да PHP [[+phprequired]] як мага хутчэй каб забяспечыць бяспеку сайта.';
-$_lang['configcheck_register_globals'] = '"register_globals" ўстаноўлена ў становішча ON ў вашым канфігурацыйным файле php.ini';
-$_lang['configcheck_register_globals_msg'] = 'Такая канфігурацыя робіць ваш сайт значна больш схільным да Cross Site Scripting (XSS) нападаў. Звяжыцеся са службай падтрымкі вашага хостынгу і спытайцеся, як ліквідаваць гэтую праблему.';
-$_lang['configcheck_title'] = 'Праверка канфігурацыі';
-$_lang['configcheck_unauthorizedpage_unavailable'] = 'Старонка "Памылка 403. Доступ забаронены" вашага сайта не апублікавана ці не існуе.';
-$_lang['configcheck_unauthorizedpage_unavailable_msg'] = 'Гэта азначае, што старонка "Памылка 403. Доступ забаронены" не даступна для наведвальнікаў сайта. Гэта можа прывесці да ўзнікнення рэкурсіўнага зацыклення і шматлікіх памылак у логах сайта. Пераканайцеся ў тым, цi не абмежаваны доступ да гэтай старонкі групам web-карыстальнікаў.';
-$_lang['configcheck_unauthorizedpage_unpublished'] = 'Старонка "Памылка 403. Доступ забаронены", пазначаная ў наладах канфігурацыі сайта, не апублікавана.';
-$_lang['configcheck_unauthorizedpage_unpublished_msg'] = 'Гэта азначае, што старонка "Памылка 403. Доступ забаронены" не даступна для наведвальнікаў сайта. Апублікуйце гэтую старонку або пераканайцеся, што яе ідэнтыфікатар правільна пазначаны ў наладах сістэмы.';
-$_lang['configcheck_warning'] = 'Папярэджанне аб канфігурацыі:';
-$_lang['configcheck_what'] = 'Што гэта значыць?';
+$_lang['configcheck_admin'] = 'Kali laska, źviažyciesia z sistemnym administrataram i papiaredźcie jaho ab hetym paviedamlieńni!';
+$_lang['configcheck_allowtagsinpost_context_enabled'] = 'Nalada kantekstu allow_tags_in_post ukliučana za miežami &quot;mgr&quot;';
+$_lang['configcheck_allowtagsinpost_context_enabled_msg'] = 'Nalada allow_tags_in_post dazvoliena dlia kantekstaŭ ŭ vašaj ustalioŭcy za miežami kantekstu mgr. MODX rekamienduje adkliučyć hetuju naladu, kali vam nie treba vidavočna dazvaliać karystaĺnikam dasylać MODX-tehi, ličbavyja sutnaści abo HTML-tehi praz mietad POST u formach na vašym sajcie. Jana pavinna być usiudy adkliučana, za vykliučeńniem kantekstu mgr.';
+$_lang['configcheck_allowtagsinpost_system_enabled'] = 'Sistemnaja nalada allow_tags_in_post ukliučana';
+$_lang['configcheck_allowtagsinpost_system_enabled_msg'] = 'Sistemnaja nalada allow_tags_in_post ukliučana ŭ vašaj ŭstalioŭcy. MODX rekamienduje adkliučyć hetuju naladu, kali vam nie patrebna vidavočna dazvaliać karystaĺnikam dasylać MODX-tehi, ličbavyja sutnaści abo HTML-tehi praz POST-mietad u formach na vašym sajcie. Liepš ukliučyć jaje dlia asobnych kantekstaŭ praz nalady kantekstu.';
+$_lang['configcheck_cache'] = 'Kataloh keša niedastupny dlia zapisu';
+$_lang['configcheck_cache_msg'] = 'MODX nie moža ničoha zapisvać u kataloh keša. MODX budzie pracavać biez kešavańnia. Kab vyrašyć hetuju prabliemu, zrabicie kataloh &quot;core/cache&quot; dastupnym dlia zapisu.';
+$_lang['configcheck_configinc'] = 'Kanfihuracyjny fajl adkryty dlia zapisu!';
+$_lang['configcheck_configinc_msg'] = 'Vaš sajt z&apos;jaŭliajecca ŭraźlivym dlia chakieraŭ, jakija mohuć nanieści sur&apos;joznuju škodu vašamu sajtu. Kali laska, zrabicie kanfihuracyjny fajl dastupnym toĺki dlia čytańnia! Kali vy nie administratar sajta, źviažyciesia z sistemnym administrataram i papiaredźcie jaho ab hetym paviedamlienni! Fajl raźmieščany ŭ [[+path]]';
+$_lang['configcheck_default_msg'] = 'Nieviadomaje papiaredžańnie bylo znojdziena. Heta dziŭna.';
+$_lang['configcheck_errorpage_unavailable'] = 'Staronka Pamylka';
+$_lang['configcheck_errorpage_unavailable_msg'] = 'Heta aznačaje, što staronka Pamylka';
+$_lang['configcheck_errorpage_unpublished'] = 'Staronka Pamylka';
+$_lang['configcheck_errorpage_unpublished_msg'] = 'Heta aznačaje, što staronka Pamylka';
+$_lang['configcheck_htaccess'] = 'Kataloh jadra dastupny dlia ŭsich';
+$_lang['configcheck_htaccess_msg'] = 'MODX vyjaviŭ, što vaš asnoŭny kataloh (častkova) dastupny dlia hramadskaści.<strong>Heta nie rekamiendujecca z mierkavańniaŭ biaśpieki.</strong>Kali vaša ŭstanoŭka MODX zapuščana na vieb-sierviery Apache, vam varta prynamsi naladzić fajl .htaccess ŭnutry kataloha z fajlami jadra: <em>[[+fileLocation]]</em>. Heta možna liohka zrabić, pieranazvaŭšy ŭžo isnujučy tam fajl ht.access ŭ .htaccess.<p>Isnujuć inšyja mietady i sierviery, jakija vy možacie vykarystoŭvać, aznajomiŭšysia z <a href=https://rtfm.modx.com/revolution/2.x/administering-your-site/security/hardening-modx-revolution>Kiraŭnictvam pa «zahartoŭcy» MODX</a> dlia atrymańnia dadatkovaj infarmacyi pra biaśpieku vašaha sajta.</p>Kali vy naladzili ŭsio praviĺna, to pry adkryćci <a href=[[+checkUrl]] target=_blank>śpisu źmien</a> staronka pavinna viarnuć vam pamylku 403 (dostup zabaronieny), a liepš pamylku 404 (staronka nie znojdziena). Kali ž vy možacie adkryć hety śpis źmienaŭ u braŭzery, niešta jašče nie naladžana jak ślied, i vam varta pravieryć nalady abo źviarnucca da ekśpiertaŭ, kab vyrašyć hetuju prabliemu.';
+$_lang['configcheck_images'] = 'Papka vyjavaŭ niedastupnaja dlia zapisu';
+$_lang['configcheck_images_msg'] = 'Kataloh dlia vyjavaŭ niedastupny dlia zapisu abo nie isnuje. Heta aznačaje, što kiravańnie vyjavami pracavać nie budzie!';
+$_lang['configcheck_installer'] = 'Nie vydaliena papka z fajlami ŭstalioŭki';
+$_lang['configcheck_installer_msg'] = 'Kataloh setup/ utrymlivaje fajly ŭstalioŭki MODX. Toĺki ŭjavicie sabie, što moža adbycca, kali zlaŭmyśnik znojdzie jaje i zapuścić ŭstalioŭku! Jon, vierahodna, nie prasuniecca dalioka, tamu što pavinien budzie ŭvieści niekatoruju karystaĺnickuju infarmacyju dlia bazy dadzienych, alie ŭsio ž taki liepš vydalić hetuju papku z vašaha sierviera. Jana raźmieščana ŭ: [[+path]]';
+$_lang['configcheck_lang_difference'] = 'Niapraviĺnaja koĺkaść zapisaŭ u moŭnym fajlie';
+$_lang['configcheck_lang_difference_msg'] = 'Koĺkaść zapisaŭ u abranaj movie adroźnivajecca ad koĺkaści zapisaŭ u movie pa zmaŭčańni. Heta nie z&apos;jaŭliajecca krytyčnaj pamylkaj, adnak heta padstava dlia abnaŭlieńnia moŭnych fajlaŭ.';
+$_lang['configcheck_notok'] = 'U naladach sistemy prysutničajuć pamylki:';
+$_lang['configcheck_ok'] = 'Pravierka prajšla paśpiachova — niama papiaredžańniaŭ dlia vyvadu.';
+$_lang['configcheck_phpversion'] = 'Viersija PHP sastarela';
+$_lang['configcheck_phpversion_msg'] = 'Vaša viersija PHP [[+phpversion]] boĺš nie padtrymlivajecca raspracoŭnikami PHP, što aznačaje anijakich abnaŭlieńniaŭ biaśpieki. Taksama vierohadna, što MODX ci pakiet dadańnia ciapier ci ŭ bližejšaj budučyni boĺš nie budzie padtrymlivati hetuju viersiju. Kali laska abnavicie atačeńnie pa mienšaj miery da PHP [[+phprequired]] jak maha chutčej kab zabiaśpiečyć biaśpieku sajta.';
+$_lang['configcheck_register_globals'] = 'register_globals ŭstanoŭliena ŭ stanovišča ON ŭ vašym kanfihuracyjnym fajlie php.ini';
+$_lang['configcheck_register_globals_msg'] = 'Takaja kanfihuracyja robić vaš sajt značna boĺš schiĺnym da Cross Site Scripting (XSS) napadaŭ. Źviažyciesia sa službaj padtrymki vašaha chostynhu i spytajciesia, jak likvidavać hetuju prabliemu.';
+$_lang['configcheck_title'] = 'Pravierka kanfihuracyi';
+$_lang['configcheck_unauthorizedpage_unavailable'] = 'Staronka Pamylka';
+$_lang['configcheck_unauthorizedpage_unavailable_msg'] = 'Heta aznačaje, što staronka Pamylka';
+$_lang['configcheck_unauthorizedpage_unpublished'] = 'Staronka Pamylka';
+$_lang['configcheck_unauthorizedpage_unpublished_msg'] = 'Heta aznačaje, što staronka Pamylka';
+$_lang['configcheck_warning'] = 'Papiaredžańnie ab kanfihuracyi:';
+$_lang['configcheck_what'] = 'Što heta značyć?';

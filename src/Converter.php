@@ -66,7 +66,7 @@ class Converter
         /** @var string $entry */
         foreach ($entries as $key => &$entry)
         {
-            $entry = $this->lexiconEntryBuilder($key, $this->convertLine($entry));
+            $entry = $this->lexiconEntryBuilder($key, $this->sanitizeLine($this->convertLine($entry)));
         }
 
         $topic = ucfirst(str_replace('.inc.php', '', $file->getFilename()));
@@ -104,6 +104,31 @@ class Converter
         $command = escapeshellcmd(sprintf(__DIR__ . '/../scripts/blt.py "%s"', $line));
 
         return trim(shell_exec($command));
+    }
+
+    protected function sanitizeLine(string $line): string
+    {
+        $symbols = str_split('?;&|#*^~<>{}[]()');
+        $letters = ['z', 'Z', 'ab', 'Ab', 'sur'];
+
+        $replacements = array_combine(array_map(fn($v) => '\\' . $v, $symbols), $symbols);
+        $replacements += array_combine(
+            array_map(fn($v) => $v . '\\', $letters),
+            array_map(fn($v) => $v . '&apos;', $letters)
+        );
+
+        // custom replacements
+        $replacements['\\n'] = '<br>';
+        $replacements['\\'] = '&quot;';
+
+        // process edge cases
+        $replacements['takija jak /, &quot;, &apos;, &quot;, (, ) abo {}.'] = 'takija jak /, \, &apos;, &quot;, (, ) abo {}.';
+        $replacements['Sien-P&quot;jer i Mikvelon'] = 'Sien-P&apos;jer i Mikvelon';
+        $replacements['Kot d&quot;JIvuar'] = 'Kot d&apos;JIvuar';
+        $replacements['M&quot;janma'] = 'M&apos;janma';
+        $replacements['V&quot;jetnam'] = 'V&apos;jetnam';
+
+        return str_replace(array_keys($replacements), array_values($replacements), $line);
     }
 
     /**

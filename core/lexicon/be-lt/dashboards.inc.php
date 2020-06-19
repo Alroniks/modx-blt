@@ -1,87 +1,87 @@
 <?php
-/**
- * Belarusian Latin language strings for Dashboards
- *
- * @package modx
- * @subpackage lexicon
- * @language en
- */
-$_lang['dashboard'] = 'Панэль кіравання';
-$_lang['dashboard_add'] = 'Дадаць панэль кіравання';
-$_lang['dashboard_create'] = 'Стварыць панэль кіравання';
-$_lang['dashboard_desc_name'] = 'Назва панэлi кіравання.';
-$_lang['dashboard_desc_description'] = 'Кароткае апісанне панэлi кіравання.';
-$_lang['dashboard_desc_hide_trees'] = 'Калі адзначана, дрэвападобныя меню будуць схаваныя пры паказе гэтай панэлі кiравання на старонцы прывітання.';
-$_lang['dashboard_hide_trees'] = 'Схаваць дрэвападобныя меню';
-$_lang['dashboard_duplicate'] = 'Дубляваць панэль кіравання';
-$_lang['dashboard_remove'] = 'Выдаліць панэль кіравання';
-$_lang['dashboard_remove_confirm'] = 'Вы сапраўды жадаеце выдаліць гэтую панэль кiравання?';
-$_lang['dashboard_remove_multiple'] = 'Выдаліць панэлi кіравання';
-$_lang['dashboard_remove_multiple_confirm'] = 'Вы сапраўды жадаеце выдаліць абраныя панелi кiравання?';
-$_lang['dashboard_update'] = 'Абнавiць панэль кіравання';
-$_lang['dashboard_err_ae_name'] = 'Панэль кіравання з назвай "[[+name]]" ужо існуе! Калi ласка, абярыце іншую назву.';
-$_lang['dashboard_err_duplicate'] = 'Адбылася памылка пры спробе дубляваць панэль кiравання.';
-$_lang['dashboard_err_nf'] = 'Панэль кіравання не знойдзена.';
-$_lang['dashboard_err_ns'] = 'Панэль кіравання не пазначана.';
-$_lang['dashboard_err_ns_name'] = 'Калi ласка, пазначце назву для вiджэта.';
-$_lang['dashboard_err_remove'] = 'Адбылася памылка пры спробе выдаліць панель кiравання.';
-$_lang['dashboard_err_remove_default'] = 'Вы не можаце выдаліць панэль кіравання па змаўчанні!';
-$_lang['dashboard_err_save'] = 'Адбылася памылка пры спробе захаваць панель кiравання.';
-$_lang['dashboard_usergroup_add'] = 'Прызначыць панэль для групы карыстальнікаў';
-$_lang['dashboard_usergroup_remove'] = 'Выдаліць сувязь панэлі і групы карыстальнікаў';
-$_lang['dashboard_usergroup_remove_confirm'] = 'Вы сапраўды жадаеце аднавіць панэль па змаўчанні для гэтай групы карыстальнiкаў?';
-$_lang['dashboard_usergroups.intro_msg'] = 'Спіс груп карыстальнікаў выкарыстоўваючых гэтую панэль кіравання.';
-$_lang['dashboard_widget_err_placed'] = 'Гэты віджэт ўжо змешчаны на гэтай панэлі!';
-$_lang['dashboard_widgets.intro_msg'] = 'Тут вы можаце дадаваць, кіраваць і выдаляць вiджэты для гэтай панэлі кіравання. Вы можаце перацягваць віджэты ў табліцы для змены парадку сартавання.';
-$_lang['dashboards'] = 'Панэлі кіравання';
-$_lang['dashboards.intro_msg'] = 'Тут вы можаце кіраваць усімі даступнымі панэлямі кіравання сістэмы кіравання MODX.';
-$_lang['rank'] = 'Ранг';
-$_lang['user_group_filter'] = 'Па групе карыстальнікаў';
-$_lang['widget'] = 'Віджэт';
-$_lang['widget_content'] = 'Змесціва віджэта';
-$_lang['widget_create'] = 'Стварыць новы віджэт';
-$_lang['widget_err_ae_name'] = 'Віджэт з назвай "[[+name]]" ужо існуе! Калі ласка, паспрабуйце iншую назву.';
-$_lang['widget_err_nf'] = 'Вiджэт не знойдзены!';
-$_lang['widget_err_ns'] = 'Віджэт не пазначаны!';
-$_lang['widget_err_ns_name'] = 'Калi ласка, пазначце назву для вiджэта.';
-$_lang['widget_err_remove'] = 'Адбылася памылка пры спробе выдаліць віджэт.';
-$_lang['widget_err_save'] = 'Адбылася памылка пры спробе захаваць вiджэт.';
-$_lang['widget_file'] = 'Файл';
-$_lang['widget_dashboards.intro_msg'] = 'Нiжэй спіс панэляў кіравання, дзе гэты віджэт ўжываецца.';
-$_lang['widget_dashboard_remove'] = 'Выдаліць віджэт з панэлі кіравання';
-$_lang['widget_description_desc'] = 'Апісанне вiджэту або ключ запісу слоўніка i апісанне таго, што ён робiць.';
-$_lang['widget_html'] = 'HTML';
-$_lang['widget_lexicon_desc'] = 'Тэма слоўніка, якая загружаецца разам з віджэтам. Выкарыстоўваецца для перакладу назвы і апісання або любога іншага тэксту ў віджэце.';
-$_lang['widget_name_desc'] = 'Назва вiджэту або ключ запісу слоўніка.';
-$_lang['widget_new'] = 'Новы віджэт';
-$_lang['widget_remove'] = 'Выдаліць віджэт';
-$_lang['widget_remove_confirm'] = 'Вы сапраўды жадаеце выдаліць гэты віджэт? Гэта незваротна і выдаліць віджэт з усіх панэляў кіравання.';
-$_lang['widget_remove_multiple'] = 'Выдаліць некалькі віджэтаў';
-$_lang['widget_remove_multiple_confirm'] = 'Вы сапраўды жадаеце выдаліць гэтыя віджэты? Гэта незваротна і выдаліць віджэты з усіх панэляў кiравання.';
-$_lang['widget_namespace'] = 'Прастора імёнаў';
-$_lang['widget_namespace_desc'] = 'Прастора імёнаў, якую будзе выкарыстоўваць віджэт. Карысна для карыстацкіх шляхоў.';
-$_lang['widget_php'] = 'Убудаваны PHP віджэт';
-$_lang['widget_place'] = 'Дадаць віджэт';
-$_lang['widget_size'] = 'Памер';
-$_lang['widget_size_desc'] = 'Памер віджэта. Можа быць альбо ў палову шырынi экрана ("Палова"), у шырыню экрана ("Поўны") або ў поўную шырыню экрана і ў два радкi ("Двайны").';
-$_lang['widget_size_double'] = 'Двайны';
-$_lang['widget_size_full'] = 'Поўны';
-$_lang['widget_size_half'] = 'Палова';
-$_lang['widget_snippet'] = 'Снiпет';
-$_lang['widget_type'] = 'Тып віджэта';
-$_lang['widget_type_desc'] = 'Віджэт тыпу "Снiпет" — гэта звычайны снiпет MODX, вынікі працы якога будуць выведзены ў віджэце. "HTML" — выведзе HTML. "Файл" — загрузiцца непасрэдна з PHP-файла, які можа альбо вярнуць свой вывад або імя класа (пашыранага ад modDashboardWidgetClass) для загрузкі. "Убудаваны PHP" выводзіць вынікі выканання PHP-кода са змесціва віджэта.';
-$_lang['widget_unplace'] = 'Выдаліць віджэт з панэлі кіравання';
-$_lang['widget_update'] = 'Абнавіць вiджэт';
-$_lang['widgets'] = 'Вiджэты';
-$_lang['widgets.intro_msg'] = 'Ніжэй прыведзены спіс усіх даступных віджэтаў.';
 
-$_lang['w_configcheck'] = 'Праверка канфігурацыі';
-$_lang['w_configcheck_desc'] = 'Выводзіць стан праверкі канфігурацыі, што гарантуе бяспечнасць вашай усталёўкi MODX.';
-$_lang['w_newsfeed'] = 'Стужка навiн MODX';
-$_lang['w_newsfeed_desc'] = 'Паказвае стужку навiн MODX';
-$_lang['w_recentlyeditedresources'] = 'Нядаўна рэдагаваныя рэсурсы';
-$_lang['w_recentlyeditedresources_desc'] = 'Паказвае спіс самых апошніх адрэдагаваных карыстальнікам рэсурсаў.';
-$_lang['w_securityfeed'] = 'Стужка паведамленняў бяспекі MODX';
-$_lang['w_securityfeed_desc'] = 'Паказвае стужку паведамленняў бяспекі MODX';
-$_lang['w_whosonline'] = 'Хто ў анлайне';
-$_lang['w_whosonline_desc'] = 'Паказвае спіс анлайн-карыстальнікаў.';
+/**
+ * Belarusian Latin lexicon – topic Dashboards
+ *
+ * @language	be-lt	Bielaruskaja lacinka
+ * @package		modx
+ * @subpackage	lexicon
+ */
+$_lang['dashboard'] = 'Paneĺ kiravańnia';
+$_lang['dashboard_add'] = 'Dadać paneĺ kiravańnia';
+$_lang['dashboard_create'] = 'Stvaryć paneĺ kiravańnia';
+$_lang['dashboard_desc_name'] = 'Nazva paneli kiravańnia.';
+$_lang['dashboard_desc_description'] = 'Karotkaje apisańnie paneli kiravańnia.';
+$_lang['dashboard_desc_hide_trees'] = 'Kali adznačana, drevapadobnyja mieniu buduć schavanyja pry pakazie hetaj paneli kiravańnia na staroncy pryvitańnia.';
+$_lang['dashboard_hide_trees'] = 'Schavać drevapadobnyja mieniu';
+$_lang['dashboard_duplicate'] = 'Dubliavać paneĺ kiravańnia';
+$_lang['dashboard_remove'] = 'Vydalić paneĺ kiravańnia';
+$_lang['dashboard_remove_confirm'] = 'Vy sapraŭdy žadajecie vydalić hetuju paneĺ kiravańnia?';
+$_lang['dashboard_remove_multiple'] = 'Vydalić paneli kiravańnia';
+$_lang['dashboard_remove_multiple_confirm'] = 'Vy sapraŭdy žadajecie vydalić abranyja panieli kiravańnia?';
+$_lang['dashboard_update'] = 'Abnavić paneĺ kiravańnia';
+$_lang['dashboard_err_ae_name'] = 'Paneĺ kiravańnia z nazvaj [[+name]] užo isnuje! Kali laska, abiarycie inšuju nazvu.';
+$_lang['dashboard_err_duplicate'] = 'Adbylasia pamylka pry sprobie dubliavać paneĺ kiravańnia.';
+$_lang['dashboard_err_nf'] = 'Paneĺ kiravańnia nie znojdziena.';
+$_lang['dashboard_err_ns'] = 'Paneĺ kiravańnia nie paznačana.';
+$_lang['dashboard_err_ns_name'] = 'Kali laska, paznačcie nazvu dlia vidžeta.';
+$_lang['dashboard_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić panieĺ kiravańnia.';
+$_lang['dashboard_err_remove_default'] = 'Vy nie možacie vydalić paneĺ kiravańnia pa zmaŭčańni!';
+$_lang['dashboard_err_save'] = 'Adbylasia pamylka pry sprobie zachavać panieĺ kiravańnia.';
+$_lang['dashboard_usergroup_add'] = 'Pryznačyć paneĺ dlia hrupy karystaĺnikaŭ';
+$_lang['dashboard_usergroup_remove'] = 'Vydalić suviaź paneli i hrupy karystaĺnikaŭ';
+$_lang['dashboard_usergroup_remove_confirm'] = 'Vy sapraŭdy žadajecie adnavić paneĺ pa zmaŭčańni dlia hetaj hrupy karystaĺnikaŭ?';
+$_lang['dashboard_usergroups.intro_msg'] = 'Śpis hrup karystaĺnikaŭ vykarystoŭvajučych hetuju paneĺ kiravańnia.';
+$_lang['dashboard_widget_err_placed'] = 'Hety vidžet ŭžo źmieščany na hetaj paneli!';
+$_lang['dashboard_widgets.intro_msg'] = 'Tut vy možacie dadavać, kiravać i vydaliać vidžety dlia hetaj paneli kiravańnia. Vy možacie pieraciahvać vidžety ŭ tablicy dlia źmieny paradku sartavańnia.';
+$_lang['dashboards'] = 'Paneli kiravańnia';
+$_lang['dashboards.intro_msg'] = 'Tut vy možacie kiravać usimi dastupnymi paneliami kiravańnia sistemy kiravańnia MODX.';
+$_lang['rank'] = 'Ranh';
+$_lang['user_group_filter'] = 'Pa hrupie karystaĺnikaŭ';
+$_lang['widget'] = 'Vidžet';
+$_lang['widget_content'] = 'Źmieściva vidžeta';
+$_lang['widget_create'] = 'Stvaryć novy vidžet';
+$_lang['widget_err_ae_name'] = 'Vidžet z nazvaj [[+name]] užo isnuje! Kali laska, pasprabujcie inšuju nazvu.';
+$_lang['widget_err_nf'] = 'Vidžet nie znojdzieny!';
+$_lang['widget_err_ns'] = 'Vidžet nie paznačany!';
+$_lang['widget_err_ns_name'] = 'Kali laska, paznačcie nazvu dlia vidžeta.';
+$_lang['widget_err_remove'] = 'Adbylasia pamylka pry sprobie vydalić vidžet.';
+$_lang['widget_err_save'] = 'Adbylasia pamylka pry sprobie zachavać vidžet.';
+$_lang['widget_file'] = 'Fajl';
+$_lang['widget_dashboards.intro_msg'] = 'Nižej śpis paneliaŭ kiravańnia, dzie hety vidžet ŭžyvajecca.';
+$_lang['widget_dashboard_remove'] = 'Vydalić vidžet z paneli kiravańnia';
+$_lang['widget_description_desc'] = 'Apisańnie vidžetu abo kliuč zapisu sloŭnika i apisańnie taho, što jon robić.';
+$_lang['widget_html'] = 'HTML';
+$_lang['widget_lexicon_desc'] = 'Tema sloŭnika, jakaja zahružajecca razam z vidžetam. Vykarystoŭvajecca dlia pierakladu nazvy i apisańnia abo liuboha inšaha tekstu ŭ vidžecie.';
+$_lang['widget_name_desc'] = 'Nazva vidžetu abo kliuč zapisu sloŭnika.';
+$_lang['widget_new'] = 'Novy vidžet';
+$_lang['widget_remove'] = 'Vydalić vidžet';
+$_lang['widget_remove_confirm'] = 'Vy sapraŭdy žadajecie vydalić hety vidžet? Heta niezvarotna i vydalić vidžet z usich paneliaŭ kiravańnia.';
+$_lang['widget_remove_multiple'] = 'Vydalić niekaĺki vidžetaŭ';
+$_lang['widget_remove_multiple_confirm'] = 'Vy sapraŭdy žadajecie vydalić hetyja vidžety? Heta niezvarotna i vydalić vidžety z usich paneliaŭ kiravańnia.';
+$_lang['widget_namespace'] = 'Prastora imionaŭ';
+$_lang['widget_namespace_desc'] = 'Prastora imionaŭ, jakuju budzie vykarystoŭvać vidžet. Karysna dlia karystackich šliachoŭ.';
+$_lang['widget_php'] = 'Ubudavany PHP vidžet';
+$_lang['widget_place'] = 'Dadać vidžet';
+$_lang['widget_size'] = 'Pamier';
+$_lang['widget_size_desc'] = 'Pamier vidžeta. Moža być aĺbo ŭ palovu šyryni ekrana (Palova), u šyryniu ekrana (Poŭny) abo ŭ poŭnuju šyryniu ekrana i ŭ dva radki (Dvajny).';
+$_lang['widget_size_double'] = 'Dvajny';
+$_lang['widget_size_full'] = 'Poŭny';
+$_lang['widget_size_half'] = 'Palova';
+$_lang['widget_snippet'] = 'Snipiet';
+$_lang['widget_type'] = 'Typ vidžeta';
+$_lang['widget_type_desc'] = 'Vidžet typu Snipiet — heta zvyčajny snipiet MODX, vyniki pracy jakoha buduć vyviedzieny ŭ vidžecie. HTML — vyviedzie HTML. Fajl — zahruzicca niepasredna z PHP-fajla, jaki moža aĺbo viarnuć svoj vyvad abo imia klasa (pašyranaha ad modDashboardWidgetClass) dlia zahruzki. Ubudavany';
+$_lang['widget_unplace'] = 'Vydalić vidžet z paneli kiravańnia';
+$_lang['widget_update'] = 'Abnavić vidžet';
+$_lang['widgets'] = 'Vidžety';
+$_lang['widgets.intro_msg'] = 'Nižej pryviedzieny śpis usich dastupnych vidžetaŭ.';
+$_lang['w_configcheck'] = 'Pravierka kanfihuracyi';
+$_lang['w_configcheck_desc'] = 'Vyvodzić stan pravierki kanfihuracyi, što harantuje biaśpiečnaść vašaj ustalioŭki MODX.';
+$_lang['w_newsfeed'] = 'Stužka navin MODX';
+$_lang['w_newsfeed_desc'] = 'Pakazvaje stužku navin MODX';
+$_lang['w_recentlyeditedresources'] = 'Niadaŭna redahavanyja resursy';
+$_lang['w_recentlyeditedresources_desc'] = 'Pakazvaje śpis samych apošnich adredahavanych karystaĺnikam resursaŭ.';
+$_lang['w_securityfeed'] = 'Stužka paviedamlieńniaŭ biaśpieki MODX';
+$_lang['w_securityfeed_desc'] = 'Pakazvaje stužku paviedamlieńniaŭ biaśpieki MODX';
+$_lang['w_whosonline'] = 'Chto ŭ anlajnie';
+$_lang['w_whosonline_desc'] = 'Pakazvaje śpis anlajn-karystaĺnikaŭ.';
