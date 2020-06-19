@@ -9,13 +9,13 @@
  */
 $_lang['snippet'] = 'Snipiet';
 $_lang['snippets_available'] = 'Śnipiety dastupny dlia taho, kab dadać ich da vašaj staronki';
-$_lang['snippet_code'] = 'Kod śnipieta \(php\)';
-$_lang['snippet_delete_confirm'] = 'Vy sapraŭdy žadajecie vydalić hety śnipiet\?';
+$_lang['snippet_code'] = 'Kod śnipieta (php)';
+$_lang['snippet_delete_confirm'] = 'Vy sapraŭdy žadajecie vydalić hety śnipiet?';
 $_lang['snippet_desc'] = 'Apisańnie';
 $_lang['snippet_desc_category'] = 'Katehoryja, da jakoj naliežyć śnipiet.';
 $_lang['snippet_desc_description'] = 'Karotkaje apisańnie hetaha śnipieta.';
-$_lang['snippet_desc_name'] = 'Nazva hetaha śnipieta. Jon budzie dastupny dlia vykarystoŭvańnia z dapamohaj teha \[\[NameOfSnippet\]\].';
-$_lang['snippet_duplicate_confirm'] = 'Vy sapraŭdy žadajecie dubliavać hety śnipiet\?';
+$_lang['snippet_desc_name'] = 'Nazva hetaha śnipieta. Jon budzie dastupny dlia vykarystoŭvańnia z dapamohaj teha [[NameOfSnippet]].';
+$_lang['snippet_duplicate_confirm'] = 'Vy sapraŭdy žadajecie dubliavać hety śnipiet?';
 $_lang['snippet_duplicate_error'] = 'Adbylasia pamylka pry dubliavańni śnipieta.';
 $_lang['snippet_err_create'] = 'Adbylasia pamylka pry stvareńni śnipieta.';
 $_lang['snippet_err_delete'] = 'Adbylasia pamylka pry sprobie vydalić śnipiet.';

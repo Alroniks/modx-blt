@@ -8,7 +8,7 @@
  * @subpackage	lexicon
  */
 $_lang['action'] = 'Dziejańnie';
-$_lang['action_confirm_remove'] = 'Vy ŭpeŭnienyja, što žadajecie vydalić hetaje dziejańnie\? Patencyjna heta moža zlamać interfiejs vašaha menedžara MODX.';
+$_lang['action_confirm_remove'] = 'Vy ŭpeŭnienyja, što žadajecie vydalić hetaje dziejańnie? Patencyjna heta moža zlamać interfiejs vašaha menedžara MODX.';
 $_lang['action_create'] = 'Stvaryć dziejańnie';
 $_lang['action_create_here'] = 'Stvaryć dziejańnie tut';
 $_lang['action_desc'] = 'Dziejańni z\jaŭliajucca abstrakcyjami kantrolieraŭ MODX. Jany mohuć być vykarystany dlia stvareńnia karystaĺnickich staronak menedžara, a taksama dlia rearhanizacyi haloŭnaha mieniu menedžara MODX.';
