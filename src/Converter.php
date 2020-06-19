@@ -108,14 +108,27 @@ class Converter
 
     protected function sanitizeLine(string $line): string
     {
-        $replacements = ['?',
-            '<', '>',
-            '{', '}',
-            '[', ']',
-            '(', ')'
-        ];
+        $symbols = str_split('?;&|#*^~<>{}[]()');
+        $letters = ['z', 'Z', 'ab', 'Ab', 'sur'];
 
-        return str_replace(array_map(fn($v) => '\\' . $v, $replacements), $replacements, $line);
+        $replacements = array_combine(array_map(fn($v) => '\\' . $v, $symbols), $symbols);
+        $replacements += array_combine(
+            array_map(fn($v) => $v . '\\', $letters),
+            array_map(fn($v) => $v . '&apos;', $letters)
+        );
+
+        // custom replacements
+        $replacements['\\n'] = '<br>';
+        $replacements['\\'] = '&quot;';
+
+        // process edge cases
+        $replacements['takija jak /, &quot;, &apos;, &quot;, (, ) abo {}.'] = 'takija jak /, \, &apos;, &quot;, (, ) abo {}.';
+        $replacements['Sien-P&quot;jer i Mikvelon'] = 'Sien-P&apos;jer i Mikvelon';
+        $replacements['Kot d&quot;JIvuar'] = 'Kot d&apos;JIvuar';
+        $replacements['M&quot;janma'] = 'M&apos;janma';
+        $replacements['V&quot;jetnam'] = 'V&apos;jetnam';
+
+        return str_replace(array_keys($replacements), array_values($replacements), $line);
     }
 
     /**
