@@ -37,9 +37,13 @@
                 "core/lexicon/be-lt",
                 "core/lexicon/country/be-lt.inc.php"
             ],
-            "resolvers": [],
+            "resolvers": [
+                "scripts/resolvers/change-language.php"
+            ],
             "validators": [],
-            "setup-options": []
+            "setup-options": {
+                "source": "scripts/setup-options.php"
+            }
         }
     }
 }
